@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>AERO DEFENSE | 대한민국 첨단 방위산업체</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300..900;1,300..900&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed-variant": "#004785", "error": "#ffb4ab", "on-error": "#690005", "on-tertiary-fixed-variant": "#7f2b00", "outline-variant": "#414752", "surface-container-lowest": "#060d24", "on-background": "#dce1ff", "on-secondary-fixed": "#001e2f", "secondary-fixed-dim": "#89ceff", "on-primary-container": "#f4f6ff", "on-tertiary-container": "#fff5f2", "primary": "#a5c8ff", "primary-fixed-dim": "#a5c8ff", "surface-container-low": "#141a32", "surface-variant": "#2d344c", "primary-container": "#0072ce", "on-error-container": "#ffdad6", "error-container": "#93000a", "on-secondary": "#00344d", "surface-container-highest": "#2d344c", "secondary-fixed": "#c9e6ff", "surface": "#0b1229", "on-surface-variant": "#c1c7d4", "on-tertiary-fixed": "#370e00", "inverse-surface": "#dce1ff", "on-secondary-fixed-variant": "#004c6e", "on-secondary-container": "#00344e", "primary-fixed": "#d4e3ff", "secondary": "#89ceff", "tertiary": "#ffb599", "surface-tint": "#a5c8ff", "surface-container-high": "#222941", "background": "#0b1229", "on-primary-fixed": "#001c3a", "tertiary-container": "#c64700", "tertiary-fixed-dim": "#ffb599", "on-tertiary": "#5a1c00", "inverse-primary": "#005fae", "surface-dim": "#0b1229", "on-primary": "#00315e", "tertiary-fixed": "#ffdbce", "secondary-container": "#00a2e6", "surface-container": "#181e36", "surface-bright": "#323851", "outline": "#8b919e", "inverse-on-surface": "#292f48", "on-surface": "#dce1ff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "space-xs": "0.25rem", "margin": "3rem", "gutter": "1.5rem", "space-sm": "0.5rem", "margin-sm": "1.25rem", "gutter-sm": "1rem", "space-md": "1rem", "space-xl": "2.5rem" }, "fontFamily": { "display-hero": [ "Chivo" ], "body-md": [ "Inter" ], "body-sm": [ "Inter" ], "headline-lg": [ "Chivo" ], "headline-md": [ "Chivo" ], "label-telemetry": [ "JetBrains Mono" ], "body-lg": [ "Inter" ], "label-code": [ "JetBrains Mono" ], "headline-sm": [ "Chivo" ], "display-hero-mobile": [ "Chivo" ], "title-spec": [ "Chivo" ], "headline-lg-mobile": [ "Chivo" ] }, "fontSize": { "display-hero": [ "64px", { "lineHeight": "72px", "fontWeight": "800" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-lg": [ "40px", { "lineHeight": "48px", "fontWeight": "700" } ], "headline-md": [ "28px", { "lineHeight": "36px", "fontWeight": "700" } ], "label-telemetry": [ "11px", { "lineHeight": "16px", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "label-code": [ "13px", { "lineHeight": "18px", "fontWeight": "500" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "fontWeight": "600" } ], "display-hero-mobile": [ "38px", { "lineHeight": "46px", "fontWeight": "800" } ], "title-spec": [ "16px", { "lineHeight": "24px", "fontWeight": "600" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "fontWeight": "700" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col justify-between"><header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-xl border-b border-outline-variant/30"><div class="w-full px-margin h-20 flex items-center justify-between"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm group" data-path="home" href="#"><div class="relative flex items-center justify-center p-space-xs bg-surface-container-high rounded border border-outline-variant/50"><img alt="AERO DEFENSE Emblem" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVTcCx9Dcae_7ktnR__8qUbjNLZFVopCILXBM-zliEcM8qwRhr3pDw0doIOUgjHclKOreiO4355WIpvUZeCBCHmGh9FsVVsULouGNf-QL1qtiy3Nr51VFsasCjW6kzzHNPRgqpR5zXS9Ok4Im4XG4-B-ORWXNvnv2x9zd2Eu9NY0wE8gJIslbLSDBRYRn_V_bCRW9hhbY2EhL77xIDJQLdqD3QP4oRAwzRqONa_w0A9tCL7-UqRZQf"/><div class="absolute -top-1 -right-1 w-2 h-2 rounded-full bg-secondary animate-ping"></div></div><div class="flex flex-col"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm tracking-wider font-extrabold text-on-surface">AERO DEFENSE</span><span class="font-label-telemetry text-label-telemetry px-1.5 py-0.5 rounded bg-primary-container text-on-primary-container uppercase font-bold tracking-widest">DAPA-SPEC</span></div><span class="font-label-code text-label-code text-on-surface-variant tracking-widest uppercase">한국방위기술 대한민국</span></div></a></div><nav class="hidden xl:flex items-center gap-space-xl h-20" data-active-classes="text-secondary border-b-2 border-secondary font-headline-sm"><a class="h-full flex items-center font-title-spec text-title-spec text-on-surface-variant hover:text-secondary transition-colors" data-path="home" href="index.html">홈 (HOME)</a><a aria-current="page" class="h-full flex items-center transition-colors text-secondary border-b-2 border-secondary font-headline-sm" data-path="about" href="#">회사소개 (ABOUT)</a><a class="h-full flex items-center font-title-spec text-title-spec text-on-surface-variant hover:text-secondary transition-colors" data-path="weapons" href="3.html">무기체계 (WEAPONS)</a><a class="h-full flex items-center font-title-spec text-title-spec text-on-surface-variant hover:text-secondary transition-colors" data-path="location" href="4.html">오시는 길 (LOCATION)</a><a class="h-full flex items-center font-title-spec text-title-spec text-on-surface-variant hover:text-secondary transition-colors" data-path="contact" href="#">고객센터 / 문의 (CONTACT)</a></nav><div class="flex items-center gap-space-md"><div class="hidden md:flex items-center bg-surface-container-low px-space-sm py-1 rounded border border-outline-variant/40"><button class="font-label-telemetry text-label-telemetry text-secondary font-bold px-space-xs py-0.5 rounded hover:text-on-surface transition-colors">KOR</button><span class="font-label-telemetry text-label-telemetry text-outline px-1">|</span><button class="font-label-telemetry text-label-telemetry text-on-surface-variant font-bold px-space-xs py-0.5 rounded hover:text-on-surface transition-colors">ENG</button></div><a class="hidden sm:flex items-center gap-space-xs px-space-md py-2 rounded bg-surface-container-high border border-outline-variant/60 hover:border-secondary hover:text-on-surface text-on-surface-variant transition-all" data-path="login" href="#"><span class="material-symbols-outlined text-title-spec text-secondary">lock</span><span class="font-label-code text-label-code uppercase tracking-wider font-semibold">보안포털 / 파트너스</span></a><button aria-label="사이트맵 전체메뉴 열기" class="flex items-center justify-center p-2 rounded bg-primary-container hover:bg-secondary-container text-on-primary-container transition-colors shadow-lg" id="megamenu-toggle" onclick="document.getElementById('megamenu-overlay').classList.toggle('hidden')"><span class="material-symbols-outlined">grid_view</span></button></div></div></header><div class="hidden fixed inset-0 z-40 bg-surface-container-lowest/95 backdrop-blur-2xl pt-20 border-b border-outline-variant/50 overflow-y-auto" id="megamenu-overlay"><div class="w-full px-margin py-space-xl"><div class="flex items-center justify-between pb-space-md border-b border-outline-variant/30 mb-space-lg"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-secondary">military_tech</span><span class="font-headline-sm text-headline-sm uppercase tracking-widest text-on-surface font-bold">전체 무기체계 및 기업 포털 사이트맵 (SITEMAP)</span></div><button class="flex items-center gap-1 text-on-surface-variant hover:text-error transition-colors" onclick="document.getElementById('megamenu-overlay').classList.add('hidden')"><span class="material-symbols-outlined">close</span><span class="font-label-telemetry text-label-telemetry uppercase tracking-widest font-bold">닫기 ESC</span></button></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg"><div class="p-space-lg bg-surface-container-low rounded border border-outline-variant/40"><div class="flex items-center gap-space-xs pb-space-sm mb-space-sm border-b border-outline-variant/40"><span class="font-label-telemetry text-label-telemetry text-secondary font-mono">SEC_01</span><h3 class="font-title-spec text-title-spec font-bold text-on-surface">회사소개 (ABOUT)</h3></div><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="about" href="#">CEO 인사말 &amp; 경영철학</a><span class="font-label-telemetry text-label-telemetry text-outline">01.1</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="about" href="#">방위산업 비전 2040</a><span class="font-label-telemetry text-label-telemetry text-outline">01.2</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="about" href="#">기업연혁 및 방산수출 현황</a><span class="font-label-telemetry text-label-telemetry text-outline">01.3</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="about" href="#">R&amp;D 첨단 방산 종합연구소</a><span class="font-label-telemetry text-label-telemetry text-outline">01.4</span></li></ul></div><div class="p-space-lg bg-surface-container-low rounded border border-outline-variant/40"><div class="flex items-center gap-space-xs pb-space-sm mb-space-sm border-b border-outline-variant/40"><span class="font-label-telemetry text-label-telemetry text-secondary font-mono">SEC_02</span><h3 class="font-title-spec text-title-spec font-bold text-on-surface">무기체계 (WEAPONS)</h3></div><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="weapons" href="#">정밀 타격 유도무기 체계</a><span class="font-label-telemetry text-label-telemetry text-outline">02.1</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="weapons" href="#">초음속 전투기 항공전자 &amp; 레이다</a><span class="font-label-telemetry text-label-telemetry text-outline">02.2</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="weapons" href="#">차세대 다목적 스마트 기갑전투체계</a><span class="font-label-telemetry text-label-telemetry text-outline">02.3</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="weapons" href="#">군집형 무인자율(UAV/UGV) 체계</a><span class="font-label-telemetry text-label-telemetry text-outline">02.4</span></li></ul></div><div class="p-space-lg bg-surface-container-low rounded border border-outline-variant/40"><div class="flex items-center gap-space-xs pb-space-sm mb-space-sm border-b border-outline-variant/40"><span class="font-label-telemetry text-label-telemetry text-secondary font-mono">SEC_03</span><h3 class="font-title-spec text-title-spec font-bold text-on-surface">연구·생산거점 (LOCATION)</h3></div><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="location" href="#">판교 첨단 미래기술 R&amp;D 센터</a><span class="font-label-telemetry text-label-telemetry text-outline">03.1</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="location" href="#">대전 유도무기 종합시험연구소</a><span class="font-label-telemetry text-label-telemetry text-outline">03.2</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="location" href="#">창원 스마트 중공업 양산기지</a><span class="font-label-telemetry text-label-telemetry text-outline">03.3</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="location" href="#">글로벌 MRO 해외 거점 현황</a><span class="font-label-telemetry text-label-telemetry text-outline">03.4</span></li></ul></div><div class="p-space-lg bg-surface-container-low rounded border border-outline-variant/40"><div class="flex items-center gap-space-xs pb-space-sm mb-space-sm border-b border-outline-variant/40"><span class="font-label-telemetry text-label-telemetry text-secondary font-mono">SEC_04</span><h3 class="font-title-spec text-title-spec font-bold text-on-surface">고객센터 / 보안 (CONTACT)</h3></div><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="contact" href="#">방산 조달 및 기술제휴 문의</a><span class="font-label-telemetry text-label-telemetry text-outline">04.1</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="contact" href="#">보안위규 24H 전담 신고센터</a><span class="font-label-telemetry text-label-telemetry text-outline">04.2</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="contact" href="#">방위산업 인재채용 지원센터</a><span class="font-label-telemetry text-label-telemetry text-outline">04.3</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="login" href="#">협력업체 방산 SCM 포털</a><span class="font-label-telemetry text-label-telemetry text-outline">04.4</span></li></ul></div></div><div class="mt-space-lg pt-space-md border-t border-outline-variant/30 flex flex-wrap items-center justify-between text-on-surface-variant font-label-telemetry text-label-telemetry"><span class="tracking-wider">DEFENSE CLASSIFICATION: LEVEL-3 NATIONAL CRITICAL INFRASTRUCTURE</span><span class="text-secondary">ONLINE TELEMETRY STATUS: NOMINAL (LATENCY 12ms)</span></div></div></div><main class="w-full pt-20 bg-background flex-1"><div class="flex flex-col w-full">
+<!-- Top Tactical Status Bar -->
+<div class="w-full bg-surface-container-lowest px-margin py-space-xs flex flex-wrap items-center justify-between text-on-surface-variant font-label-telemetry text-label-telemetry">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1.5 text-secondary">
+<span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+        DEFENSE ID: ROK-AD-2025-CORP
+      </span>
+<span class="text-outline">/</span>
+<span>SECURITY RATING: DEFENSE GRADE-A (ADD/DAPA CERTIFIED)</span>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="text-outline">MIL-STD-810H / DQMS VERIFIED</span>
+<span class="text-secondary font-bold font-label-code text-label-code">GRID REF: 37.4020° N, 127.1086° E</span>
+</div>
+</div>
+<!-- Hero Intro Section (Tactical Asymmetric Bleed) -->
+<section class="relative w-full overflow-hidden bg-surface-container-low px-margin py-space-xl">
+<div class="absolute inset-0 opacity-15 pointer-events-none" style="background-image: radial-gradient(circle at 75% 25%, #0072ce 0%, transparent 60%), radial-gradient(circle at 10% 85%, #00a2e6 0%, transparent 45%);"></div>
+<div class="absolute right-0 top-0 w-1/2 h-full opacity-10 pointer-events-none flex items-center justify-center">
+<svg class="w-full h-full text-secondary" fill="none" stroke="currentColor" stroke-width="0.8" viewbox="0 0 400 400">
+<circle cx="200" cy="200" r="180" stroke-dasharray="6 6"></circle>
+<circle cx="200" cy="200" r="130"></circle>
+<circle cx="200" cy="200" r="80"></circle>
+<line x1="20" x2="380" y1="200" y2="200"></line>
+<line x1="200" x2="200" y1="20" y2="380"></line>
+<polygon fill="currentColor" points="200,60 215,90 185,90"></polygon>
+<polygon fill="currentColor" points="340,200 310,215 310,185"></polygon>
+</svg>
+</div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<div class="lg:col-span-7 space-y-space-md">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-highest text-secondary font-label-telemetry text-label-telemetry uppercase tracking-wider">
+<span class="material-symbols-outlined text-sm text-secondary">verified</span>
+          대한민국 첨단 방위산업체 국방혁신 4.0 주관사
+        </div>
+<div class="space-y-space-xs">
+<span class="font-label-code text-label-code text-outline tracking-widest block uppercase">ABOUT AERO DEFENSE CORP.</span>
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight leading-none">
+            자주국방의 초석에서<br/>
+<span class="text-secondary drop-shadow-[0_0_24px_rgba(137,206,255,0.35)]">글로벌 K-방산의</span> 주역으로
+          </h1>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+          에어로디펜스는 1982년 국산 정밀 유도기술의 불모지에서 출발하여, 지·해·공 및 우주를 아우르는 대한민국 대표 종합방위산업체로 성장하였습니다. 극한의 신뢰성과 초정밀 기술력으로 국가 안보를 수호하고 전 세계 우방국과 평화의 방패를 공유합니다.
+        </p>
+<!-- Fast KPI Readouts -->
+<div class="grid grid-cols-3 gap-space-sm pt-space-sm">
+<div class="p-space-md rounded bg-surface-container shadow-md">
+<span class="font-label-telemetry text-label-telemetry text-outline uppercase block">R&amp;D 투자 비중</span>
+<span class="font-headline-md text-headline-md text-secondary font-bold">18.4%</span>
+<span class="font-label-code text-label-code text-on-surface-variant block mt-1">국내 방산 최고 수준</span>
+</div>
+<div class="p-space-md rounded bg-surface-container shadow-md">
+<span class="font-label-telemetry text-label-telemetry text-outline uppercase block">글로벌 수출국</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">24개국</span>
+<span class="font-label-code text-label-code text-on-surface-variant block mt-1">NATO &amp; 인태 파트너</span>
+</div>
+<div class="p-space-md rounded bg-surface-container shadow-md">
+<span class="font-label-telemetry text-label-telemetry text-outline uppercase block">국방 지식재산권</span>
+<span class="font-headline-md text-headline-md text-on-surface font-bold">1,820+</span>
+<span class="font-label-code text-label-code text-on-surface-variant block mt-1">특허 및 원천기술</span>
+</div>
+</div>
+</div>
+<!-- Hero Visual Emblem & Tactical Matrix -->
+<div class="lg:col-span-5 relative">
+<div class="relative p-space-lg rounded-xl bg-surface-container-high shadow-xl overflow-hidden">
+<div class="absolute top-3 left-4 font-label-telemetry text-label-telemetry text-outline flex items-center gap-1">
+<span class="w-1.5 h-1.5 bg-primary rounded-full"></span>
+            RADAR SCAN: ACTIVE // SYS_READY
+          </div>
+<div class="absolute top-3 right-4 font-label-telemetry text-label-telemetry text-secondary">
+            CH: TAC-09
+          </div>
+<div class="relative w-full aspect-square flex items-center justify-center my-space-sm">
+<img class="w-full h-full object-contain rounded-lg filter drop-shadow-[0_0_32px_rgba(0,114,206,0.35)]" data-alt="A futuristic Korean military aerospace command emblem with sleek ballistic geometry, glowing cyan cyan and navy HUD graphics, radar reticle targeting circles, matte composite carbon armor backdrop, ultra-detailed photorealistic defense aerospace corporate aesthetic, 8k resolution" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2-jkzN4jhonxpLf0F1MrBQICVaQ2xCu5KNFtBF7Ng-uVrQ8TT6uHdUOMYEV8eKDGSWxBwGulG8uFPuKKUx6-Cou3f_ZcL0-jh8qskzMOuZUS3xzbmB8_iC8SuNoQbaJQ9xMjx07jkFCsKq5sRHcETKA365nv7LRuala7xrCXdz7mcBXdyA5pBb2_gXO-J9DeTwIa5drUggIghfntRCHs3nFUXPF2-cUPuPvK_sjXfJYg9CwJhD8bB"/>
+<!-- Real-time HUD vector overlay -->
+<div class="absolute inset-0 pointer-events-none flex items-center justify-center">
+<svg class="w-5/6 h-5/6 text-secondary/30" viewbox="0 0 200 200">
+<circle cx="100" cy="100" fill="none" r="95" stroke="currentColor" stroke-dasharray="3 3"></circle>
+<circle cx="100" cy="100" fill="none" r="70" stroke="currentColor"></circle>
+<path d="M 95 10 L 105 10 M 100 5 L 100 15" stroke="currentColor"></path>
+<path d="M 95 190 L 105 190 M 100 185 L 100 195" stroke="currentColor"></path>
+<path d="M 10 95 L 10 105 M 5 100 L 15 100" stroke="currentColor"></path>
+<path d="M 190 95 L 190 105 M 185 100 L 195 100" stroke="currentColor"></path>
+</svg>
+</div>
+</div>
+<div class="p-space-sm rounded bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-base">shield</span>
+<span class="font-label-code text-label-code text-on-surface font-semibold">대한민국 방위사업청 1급 방산업체</span>
+</div>
+<span class="font-label-telemetry text-label-telemetry text-secondary">CERTIFIED 2025</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CEO Address & Philosophy Section -->
+<section class="w-full px-margin py-space-xl bg-surface">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-stretch">
+<!-- Portrait & Operational Credentials -->
+<div class="lg:col-span-5 flex flex-col justify-between p-space-lg rounded-xl bg-surface-container shadow-lg relative overflow-hidden">
+<div class="absolute -right-12 -top-12 w-48 h-48 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-telemetry text-label-telemetry text-secondary uppercase font-bold tracking-wider">COMMANDER / CEO STATEMENT</span>
+<span class="material-symbols-outlined text-secondary">military_tech</span>
+</div>
+<div class="relative w-full aspect-[4/5] rounded overflow-hidden shadow-md">
+<img class="w-full h-full object-cover" data-alt="Distinguished Korean defense aerospace industry Chief Executive Officer in dark bespoke military-inspired executive business suit standing in a high-tech ballistic testing laboratory with faint blueprint screens and missile turbine parts in blurred background, commanding solemn posture, cinematic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7CVybpTN4ZAWF7Wy9RVqM0mXsrRUsbC8yvzaj_ya4wnwlLQgOJq3_Fv2aA9bp0rdprTPEJNFSSptftBvkC5bfFCnymNUPt8sZzH-oJKj4ox4-9svqx0NUlVaJTMvRMqbPWrlrlqhYqv2FjiZ4Q_O1rS9xFztVIo_vPWkqP61-haVWf2hdjQno6aQR5im7bSbf2ps3eTBHg4yknSxzaDwNy391UL_S6zFP5qGBZmKK7MRIeL3Iyw9X"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4">
+<p class="font-headline-sm text-headline-sm font-bold text-on-surface">강 성 훈 <span class="text-sm font-normal text-on-surface-variant font-label-code">Kang Seong-Hun</span></p>
+<p class="font-body-sm text-body-sm text-secondary font-medium">에어로디펜스 대표이사 회장 / 前 국방첨단기술위원회 위원</p>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-sm rounded space-y-1 font-label-code text-label-code text-on-surface-variant">
+<div class="flex justify-between">
+<span class="text-outline">임명 / 취임</span>
+<span class="text-on-surface font-semibold">2018. 03 ~ 현재</span>
+</div>
+<div class="flex justify-between">
+<span class="text-outline">전문 분야</span>
+<span class="text-on-surface font-semibold">초음속 공력설계 및 정밀유도무기</span>
+</div>
+</div>
+</div>
+<!-- CEO Message Narrative -->
+<div class="lg:col-span-7 flex flex-col justify-between p-space-xl rounded-xl bg-surface-container-low shadow-lg">
+<div class="space-y-space-md">
+<div class="inline-flex items-center gap-space-xs text-primary font-label-code text-label-code uppercase tracking-widest">
+<span class="w-2 h-0.5 bg-primary"></span>
+            CHAIRMAN &amp; CEO MESSAGE
+          </div>
+<blockquote class="font-headline-md text-headline-md text-on-surface font-bold leading-snug">
+            “국가와 국민의 안전을 최우선 가치로 여기며,<br/>
+<span class="text-secondary">극한의 신뢰성과 정밀성</span>을 갖춘 미래 무기체계를 개발합니다.”
+          </blockquote>
+<div class="space-y-space-sm font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              존경하는 국민 여러분과 전 세계 국방 파트너 여러분,
+            </p>
+<p>
+              현대의 전장은 이전과는 비교할 수 없을 정도로 복합적이고 다변화되고 있습니다. 인공지능 자율 비행, 초음속 유도탄, 우주 위성 감시 정찰에 이르기까지 안보의 패러다임은 하이테크 첨단 과학기술의 주도권 싸움으로 전환되었습니다.
+            </p>
+<p>
+              에어로디펜스는 지난 40여 년간 실패를 두려워하지 않는 연구개발 집념으로 불모지였던 대한민국 유도무기 및 첨단 항공전자 장비의 독자 개발을 완수해냈습니다. 단 0.001초의 오차도 용납되지 않는 전장의 극한 환경 속에서, 아군 장병의 생명을 수호하고 침략을 억제하는 가장 확실한 방패는 바로 우리의 완벽한 기술력입니다.
+            </p>
+<p>
+              우리는 이제 대한민국 영공과 국경을 넘어 글로벌 자유 진영의 신뢰받는 방산 공급망의 핵심 주역으로 도약하고 있습니다. 투명한 윤리경영과 엄격한 품질 무결성을 바탕으로 세계 최고의 전략 자산을 공급할 것을 엄숙히 약속드립니다.
+            </p>
+</div>
+</div>
+<div class="pt-space-md mt-space-md bg-surface-container p-space-md rounded flex items-center justify-between">
+<div>
+<span class="font-label-telemetry text-label-telemetry text-outline block">LEADERSHIP CODE</span>
+<span class="font-label-code text-label-code text-on-surface font-bold">SOVEREIGN INTEGRITY &amp; TACTICAL SUPREMACY</span>
+</div>
+<div class="font-display-hero text-headline-sm text-secondary italic tracking-wider font-extrabold select-none">
+            Kang, S. H.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- VISION 2035 & 4 Core Values -->
+<section class="w-full px-margin py-space-xl bg-surface-container-lowest">
+<div class="max-w-4xl mb-space-lg space-y-space-xs">
+<div class="inline-flex items-center gap-space-xs text-secondary font-label-telemetry text-label-telemetry uppercase tracking-widest">
+<span class="material-symbols-outlined text-sm">flag</span>
+        STRATEGIC ROADMAP
+      </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">
+        비전 2035 &amp; 4대 핵심 가치
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        에어로디펜스가 지향하는 2035년 미래 방산 비전은 우주·사이버·공중·지상을 단일망으로 잇는 차세대 초연결 AI 복합 전투체계의 완성입니다.
+      </p>
+</div>
+<!-- 4 Core Values Grid (Bento Matrix) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Value 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low hover:bg-surface-container transition-all group shadow-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-telemetry text-label-telemetry text-secondary font-mono">CORE_01</span>
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-xl">gavel</span>
+</div>
+</div>
+<div>
+<span class="font-label-code text-label-code text-outline tracking-wider block">ABSOLUTE RELIABILITY</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">절대적 신뢰성</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            영하 45도에서 영상 60도까지, 전자기 펄스(EMP)와 전파 방해의 악조건 속에서도 100% 명중과 안정적 작동을 보장하는 무결점 품질을 실현합니다.
+          </p>
+</div>
+<div class="mt-space-md pt-space-xs font-label-telemetry text-label-telemetry text-secondary">
+          TOLERANCE: ZERO-DEFECT
+        </div>
+</div>
+<!-- Value 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low hover:bg-surface-container transition-all group shadow-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-telemetry text-label-telemetry text-secondary font-mono">CORE_02</span>
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-xl">radar</span>
+</div>
+</div>
+<div>
+<span class="font-label-code text-label-code text-outline tracking-wider block">TECHNOLOGICAL EDGE</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">기술적 우위</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            국내 최초 GaN 기반 능동위상배열(AESA) 레이더, 극초음속 비행제어 등 경쟁국을 압도하는 자주국방 핵심 원천기술을 선제적으로 확보합니다.
+          </p>
+</div>
+<div class="mt-space-md pt-space-xs font-label-telemetry text-label-telemetry text-primary">
+          TECH SUPREMACY INDEX #1
+        </div>
+</div>
+<!-- Value 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low hover:bg-surface-container transition-all group shadow-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-telemetry text-label-telemetry text-secondary font-mono">CORE_03</span>
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-tertiary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-xl">military_tech</span>
+</div>
+</div>
+<div>
+<span class="font-label-code text-label-code text-outline tracking-wider block">PATRIOTIC DUTY</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">헌신적 사명감</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            조국과 국민의 생명을 지키는 최후의 방패라는 자긍심을 바탕으로 방산 종사자로서의 숭고한 소명과 무거운 책임을 다합니다.
+          </p>
+</div>
+<div class="mt-space-md pt-space-xs font-label-telemetry text-label-telemetry text-tertiary">
+          DUTY FOR SOVEREIGN DEFENSE
+        </div>
+</div>
+<!-- Value 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low hover:bg-surface-container transition-all group shadow-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-telemetry text-label-telemetry text-secondary font-mono">CORE_04</span>
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-secondary-container group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-xl">satellite_alt</span>
+</div>
+</div>
+<div>
+<span class="font-label-code text-label-code text-outline tracking-wider block">FUTURE SECURITY</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">지속가능한 미래안보</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            AI 무인 자율 전투체계와 친환경 하이브리드 기동화 파워트레인을 도입하여 다음 세대를 위한 지속가능하고 지능화된 방위 솔루션을 창조합니다.
+          </p>
+</div>
+<div class="mt-space-md pt-space-xs font-label-telemetry text-label-telemetry text-secondary-container">
+          HORIZON: SPACE &amp; AI CONVERGENCE
+        </div>
+</div>
+</div>
+</section>
+<!-- Interactive Timeline / History Section -->
+<section class="w-full px-margin py-space-xl bg-surface">
+<div class="flex flex-col md:flex-row md:items-end justify-between pb-space-lg mb-space-lg">
+<div class="space-y-space-xs">
+<span class="font-label-telemetry text-label-telemetry text-secondary uppercase tracking-widest block">HISTORICAL CHRONOLOGY 1982 - 2025</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">에어로디펜스 발자취 및 주요 연혁</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          국산 무기체계 자립의 태동기부터 K-방산 글로벌 수출의 주역으로 우뚝 서기까지의 혁신 역사입니다.
+        </p>
+</div>
+<div class="mt-4 md:mt-0 flex gap-2">
+<button class="px-space-sm py-1 rounded bg-primary-container text-on-primary-container font-label-code text-label-code font-bold" id="btn-era-all" onclick="filterEra('all')">전체 보기</button>
+<button class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-code text-label-code" id="btn-era-found" onclick="filterEra('found')">창업 및 태동기</button>
+<button class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-code text-label-code" id="btn-era-growth" onclick="filterEra('growth')">유도무기 국산화</button>
+<button class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-code text-label-code" id="btn-era-global" onclick="filterEra('global')">글로벌 K-방산</button>
+</div>
+</div>
+<!-- Timeline Grid Matrix -->
+<div class="relative pl-6 md:pl-10 space-y-space-lg before:content-[''] before:absolute before:left-3 md:before:left-4 before:top-2 before:bottom-2 before:w-0.5 before:bg-surface-container-highest">
+<!-- 2021 ~ Present -->
+<div class="timeline-node relative era-global group" data-era="global">
+<div class="absolute -left-6 md:-left-10 mt-1 w-6 h-6 rounded-full bg-surface-container-high flex items-center justify-center shadow">
+<div class="w-2.5 h-2.5 rounded-full bg-secondary group-hover:scale-125 transition-transform"></div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-md">
+<div class="flex flex-wrap items-center justify-between gap-space-xs pb-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="font-headline-sm text-headline-sm font-extrabold text-secondary">2021 ~ 현재</span>
+<span class="px-2 py-0.5 rounded bg-primary-container/20 text-primary font-label-telemetry text-label-telemetry font-bold">글로벌 수출 및 우주방위 확장</span>
+</div>
+<span class="font-label-telemetry text-label-telemetry text-outline">MILESTONE ERA IV</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-md mt-space-sm">
+<div class="p-space-sm rounded bg-surface-container space-y-1">
+<span class="font-label-code text-label-code text-secondary font-bold">2024. 11</span>
+<h4 class="font-title-spec text-title-spec font-bold text-on-surface">유럽 NATO 3개국 3.4조원 다연장/정밀유도탄 공급계약</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">동유럽 국경 방어를 위한 한국형 스마트 유도탄 및 사격통제체계 대규모 턴키 인도 계약 체결.</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container space-y-1">
+<span class="font-label-code text-label-code text-secondary font-bold">2023. 06</span>
+<h4 class="font-title-spec text-title-spec font-bold text-on-surface">KF-21 탑재형 국산 초정밀 AESA 레이더 비행시험 통과</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">독자 개발 GaN 송수신 모듈을 적용한 항공전자 능동위상배열 레이더 실기체 요격표적 탐색 성공.</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container space-y-1">
+<span class="font-label-code text-label-code text-secondary font-bold">2021. 09</span>
+<h4 class="font-title-spec text-title-spec font-bold text-on-surface">군집형 AI 무인정찰 드론봇 전투체계 군 시범배치</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">자율 군집 알고리즘을 탑재한 수직이착륙 무인기 체계 전방 야전부대 최초 전력화.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- 2005 ~ 2020 -->
+<div class="timeline-node relative era-growth group" data-era="growth">
+<div class="absolute -left-6 md:-left-10 mt-1 w-6 h-6 rounded-full bg-surface-container-high flex items-center justify-center shadow">
+<div class="w-2.5 h-2.5 rounded-full bg-primary group-hover:scale-125 transition-transform"></div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-md">
+<div class="flex flex-wrap items-center justify-between gap-space-xs pb-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="font-headline-sm text-headline-sm font-extrabold text-primary">2005 ~ 2020</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-label-telemetry text-label-telemetry font-bold">첨단 정밀유도 및 항공전자 도약</span>
+</div>
+<span class="font-label-telemetry text-label-telemetry text-outline">MILESTONE ERA III</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-md mt-space-sm">
+<div class="p-space-sm rounded bg-surface-container space-y-1">
+<span class="font-label-code text-label-code text-primary font-bold">2018. 08</span>
+<h4 class="font-title-spec text-title-spec font-bold text-on-surface">판교 미래 AI 국방 소프트웨어 연구센터 개소</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">자율 무기 및 센서 융합 C4I 아키텍처 연구를 위한 수도권 거점 R&amp;D 센터 확충.</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container space-y-1">
+<span class="font-label-code text-label-code text-primary font-bold">2014. 12</span>
+<h4 class="font-title-spec text-title-spec font-bold text-on-surface">중거리 지대공 요격체계 ‘천궁(M-SAM)’ 유도부 양산</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">대한민국 영공 복합 방어망 핵심 요격체계 탐색기 및 측추력 제어장비 본격 공급.</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container space-y-1">
+<span class="font-label-code text-label-code text-primary font-bold">2009. 04</span>
+<h4 class="font-title-spec text-title-spec font-bold text-on-surface">구미 정밀유도 스마트팩토리 1공구 준공</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">클린룸 등급 1,000 수준의 자동화 조립 라인을 구축하여 탄두 및 탐색기 신뢰도 극대화.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- 1982 ~ 2004 -->
+<div class="timeline-node relative era-found group" data-era="found">
+<div class="absolute -left-6 md:-left-10 mt-1 w-6 h-6 rounded-full bg-surface-container-high flex items-center justify-center shadow">
+<div class="w-2.5 h-2.5 rounded-full bg-outline group-hover:scale-125 transition-transform"></div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-md">
+<div class="flex flex-wrap items-center justify-between gap-space-xs pb-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="font-headline-sm text-headline-sm font-extrabold text-on-surface">1982 ~ 2004</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-label-telemetry text-label-telemetry font-bold">창업 및 정밀기계 국산화 기반 구축</span>
+</div>
+<span class="font-label-telemetry text-label-telemetry text-outline">MILESTONE ERA I &amp; II</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-md mt-space-sm">
+<div class="p-space-sm rounded bg-surface-container space-y-1">
+<span class="font-label-code text-label-code text-outline font-bold">1998. 10</span>
+<h4 class="font-title-spec text-title-spec font-bold text-on-surface">대전 국방과학연구단지 인접 중앙종합연구소 설립</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">ADD와 긴밀한 산학연 연구체계를 조성하여 국산 유도탄 센서 및 추진체 연구 개시.</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container space-y-1">
+<span class="font-label-code text-label-code text-outline font-bold">1989. 05</span>
+<h4 class="font-title-spec text-title-spec font-bold text-on-surface">창원 기동포병 탄약체계 부품 100% 국산화 달성</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">기존 해외 도입에 의존하던 155mm 정밀신관 및 특수합금 탄피 양산 라인 완전 독자화.</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container space-y-1">
+<span class="font-label-code text-label-code text-outline font-bold">1982. 03</span>
+<h4 class="font-title-spec text-title-spec font-bold text-on-surface">에어로디펜스(한국정밀방위공업) 창립</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">자주국방의 기치 아래 정밀기계 가공 및 국방 규격 방산품 생산 전문기업으로 출범.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- R&D Infrastructure Matrix (4 Major Centers) -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low">
+<div class="flex flex-col md:flex-row md:items-end justify-between pb-space-lg mb-space-md">
+<div class="space-y-space-xs">
+<span class="font-label-telemetry text-label-telemetry text-secondary uppercase tracking-widest block">R&amp;D AND PRODUCTION HUBS</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">연구개발 및 양산 인프라 현황</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          국방 R&amp;D의 심장인 대덕연구개발특구부터 수도권 AI 소프트웨어 혁신, 영남권 초정밀 양산기지까지 최적화된 삼각 방산 클러스터를 가동 중입니다.
+        </p>
+</div>
+<div class="mt-4 md:mt-0 font-label-code text-label-code text-on-surface-variant">
+<span class="text-secondary font-bold">TOTAL FACILITY: 4개 핵심 거점</span> | 연간 양산능력 15,000 unit
+      </div>
+</div>
+<!-- Facility Cards Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Hub 1: Daejeon -->
+<div class="rounded-xl bg-surface-container shadow-lg overflow-hidden flex flex-col justify-between group">
+<div>
+<div class="relative w-full h-44 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High-tech defense research complex in Daejeon Daedeok Valley, exterior dusk view with sleek dark glass facade, perimeter security lighting, test missile radome antennas on roof, deep blue ambient illumination" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2X_fTi92KMYcCq2-GsyqITx1h0WVe1nXevf0HuQLZGt1lLdSWK7dFZdac7emTf0fZb4Mj33qPzKU8da2JQ0R1bvE4x9FOIdaYqPiswb-Ph9Cv-Z2822HLIj-qacI7OlhD5dcQTmP6-lpgzg631ZwKsrxH4SCnC2sIuAtLPl8H9fCZbCGxlVziGhcqFQiHduoZc-iUzKz5unbw-v1SiPDLnwyZdXazW8kdpmIXZLWeVPlo2dINQu3V"/>
+<div class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-telemetry text-label-telemetry text-secondary">
+              HUB_01 : R&amp;D MAIN
+            </div>
+<div class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-code text-label-code text-on-surface">
+              대전 유성구 대덕연구특구
+            </div>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">대전 종합시험연구소</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              국방과학연구소(ADD) 인접 거점으로 유도무기 공력/탄도 비행제어, 풍동 실험, 고주파 무반사실을 갖춘 에어로디펜스의 최고 R&amp;D 사령탑.
+            </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<div class="p-space-xs rounded bg-surface-container-low font-label-code text-label-code text-on-surface-variant space-y-1">
+<div class="flex justify-between"><span class="text-outline">전담 연구원</span><span class="text-on-surface font-semibold">680여 명</span></div>
+<div class="flex justify-between"><span class="text-outline">특화 체계</span><span class="text-secondary font-semibold">유도무기 / 탐색기</span></div>
+</div>
+</div>
+</div>
+<!-- Hub 2: Pangyo -->
+<div class="rounded-xl bg-surface-container shadow-lg overflow-hidden flex flex-col justify-between group">
+<div>
+<div class="relative w-full h-44 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Ultra-modern Pangyo techno valley high-rise software engineering laboratory, glass interiors, engineers monitoring cyber threat maps and drone swarm simulation algorithms on wide curved command displays" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUa7QncWiNXGVCEGn1daNKCtDuw0G4YvHZ7ZX8QVg6hmhbFuZLDEvmZRt4rQ0CEV0PlCvA34iT7E_aBROqP3dms_th5UoOfhIXkPaVRk0APWDNKn8k9vwv-4Q2e0USoxOMH_pcgS2n2gA3gzZeGvU7sIcMqgmgRZJckSuhqa7Eqj6HnjIoSXBb6ux4iDI4G6F1uxo9_5FFSzuLffqCTs4lhgm_NMHLjNHmMp8vGYaYZ8nX9-hu5U4x"/>
+<div class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-telemetry text-label-telemetry text-primary">
+              HUB_02 : AI SW CENTER
+            </div>
+<div class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-code text-label-code text-on-surface">
+              경기도 성남 판교테크노밸리
+            </div>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">판교 AI 국방 SW 센터</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              유무인 복합전투(MUM-T) 자율 판단 알고리즘, 위성 SAR 영상 딥러닝 표적식별, 미래 전술 C4I 통합 임베디드 운영체제를 연구합니다.
+            </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<div class="p-space-xs rounded bg-surface-container-low font-label-code text-label-code text-on-surface-variant space-y-1">
+<div class="flex justify-between"><span class="text-outline">전담 연구원</span><span class="text-on-surface font-semibold">420여 명</span></div>
+<div class="flex justify-between"><span class="text-outline">특화 체계</span><span class="text-primary font-semibold">AI 자율제어 / C4I</span></div>
+</div>
+</div>
+</div>
+<!-- Hub 3: Gumi -->
+<div class="rounded-xl bg-surface-container shadow-lg overflow-hidden flex flex-col justify-between group">
+<div>
+<div class="relative w-full h-44 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Aerospace defense smart factory cleanroom in Gumi, robotic arms assembling precision guidance radar seeker electronics under spotless LED lighting, clean white and ballistic blue aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_xihiJSNns86heVOf-qzmzoRoEvN0XZEhh39H0XuzaMaoF-UmOJPcmbtYJDNBES7ueR4Bi-Yjp6pbyA0Ky64lpaNuw70hVbOzQISb2nNnjCgr6RHzxcNqe5YUiOwUYaMeoC36XLLTRyRzmDvmgYK3tTUUDFpe8JvWuhsOVZwJ7dDNbwhyIFfk_VzljWRiw6J0eDwn7qLGN9VrmIR4amAKhqiaYwIE1woflYWM7apQmOs3TZxFQ1DS"/>
+<div class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-telemetry text-label-telemetry text-secondary-container">
+              HUB_03 : SMART PRODUCTION
+            </div>
+<div class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-code text-label-code text-on-surface">
+              경북 구미 국가산업단지
+            </div>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">구미 정밀유도 양산공장</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              클래스 1,000 수준의 고청정 스마트 클린룸 설비를 통해 초정밀 RF/IR 시커, 관성항법장비(INS) 및 미사일 최종 조립을 전담합니다.
+            </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<div class="p-space-xs rounded bg-surface-container-low font-label-code text-label-code text-on-surface-variant space-y-1">
+<div class="flex justify-between"><span class="text-outline">제조 면적</span><span class="text-on-surface font-semibold">124,000㎡</span></div>
+<div class="flex justify-between"><span class="text-outline">특화 체계</span><span class="text-secondary-container font-semibold">시커 / 유도 조립</span></div>
+</div>
+</div>
+</div>
+<!-- Hub 4: Changwon -->
+<div class="rounded-xl bg-surface-container shadow-lg overflow-hidden flex flex-col justify-between group">
+<div>
+<div class="relative w-full h-44 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Heavy defense mobility vehicle proving ground in Changwon, armored tracked rocket launcher maneuvering through rugged terrain obstacle course, dynamic dust trail, sharp precision engineering" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDo12Hcdg79QPbShSn9mAF60ZK6cTDIPuvViUuM2XOgq4dCdEZxyqqkyjUzEevFI-BoCxIj8f2F4qcyHmw4I9qTzk-Tb9kH9Rng1dDflvEV139cN_MFpsge1X_7rGZOOxgKUWTKWXjagFXHEH5iUHEC9sboXlhFbISANIYzrw50F34_1dPfulMbir2PzZEJ9b1I5fPtf2JU4fkEA1Ivp_nO9vUk7DsIu9KNq1ZYP7Pe9FfEIuZ4In1W"/>
+<div class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-telemetry text-label-telemetry text-tertiary">
+              HUB_04 : PROVING GROUND
+            </div>
+<div class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-code text-label-code text-on-surface">
+              경남 창원 국가산업단지
+            </div>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">창원 기동체계 시험장</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              자주 발사대 차체, 수직 발사관(VLS), 유압 전개식 지지대 등 중공업 기반 대형 기동 발사 플랫폼의 종합 성능 검증 시험장입니다.
+            </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<div class="p-space-xs rounded bg-surface-container-low font-label-code text-label-code text-on-surface-variant space-y-1">
+<div class="flex justify-between"><span class="text-outline">시험 주로</span><span class="text-on-surface font-semibold">4.8km 복합코스</span></div>
+<div class="flex justify-between"><span class="text-outline">특화 체계</span><span class="text-tertiary font-semibold">발사차량 / 기동장갑</span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Global Defense Certification & Quality Policy -->
+<section class="w-full px-margin py-space-xl bg-surface">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<div class="lg:col-span-5 space-y-space-md">
+<div class="inline-flex items-center gap-space-xs text-secondary font-label-telemetry text-label-telemetry uppercase tracking-widest">
+<span class="material-symbols-outlined text-sm">verified_user</span>
+          GLOBAL STANDARDS &amp; AUDIT
+        </div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">
+          글로벌 인증 및<br/>무결점 품질 방침
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          에어로디펜스는 군수품 품질보증의 최고 기준인 국방기술품질원 DQMS 인증과 미국 국방성 MIL-STD를 철저히 준수합니다. 어떠한 전장 조건에서도 한 치의 오차 없이 즉각 임무를 수행할 수 있도록 전 공정 무결점 체계를 상시 유지합니다.
+        </p>
+<div class="p-space-md rounded-lg bg-surface-container-high space-y-2">
+<div class="flex items-center gap-space-xs text-on-surface font-semibold font-title-spec text-title-spec">
+<span class="material-symbols-outlined text-secondary">workspace_premium</span>
+<span>국가보안 최고등급 사업장 지정</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            에어로디펜스 전 연구 및 제조시설은 국방보안업무훈령에 따른 ‘보안 A등급’ 공인 시설로서 3중 침입방지 시스템 및 양자암호 기반 인트라넷 통신망을 구축하여 국가 기밀을 완벽히 보호합니다.
+          </p>
+</div>
+</div>
+<!-- Certifications Grid with High-density Spec Readouts -->
+<div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Cert 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-md space-y-space-sm flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-2xl">approval_delegation</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">DQMS 국방품질경영시스템</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              국방기술품질원(DTAQ) 인증 국방품질경영체계로, 연구개발 전 주기 형상관리 및 양산 품질 무결성을 공인받았습니다.
+            </p>
+</div>
+<div class="pt-space-xs font-label-telemetry text-label-telemetry text-secondary">
+            CERT ID: DTAQ-DQMS-2024-K09
+          </div>
+</div>
+<!-- Cert 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-md space-y-space-sm flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">security</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">미 국방성 MIL-STD-810H</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              극저온, 혹한, 진동, 염무, 충격, 전자기적합성(MIL-STD-461G) 등 24개 전장 환경 적합성 테스트를 100% 통과했습니다.
+            </p>
+</div>
+<div class="pt-space-xs font-label-telemetry text-label-telemetry text-primary">
+            COMPLIANCE: US DOD SPEC PASS
+          </div>
+</div>
+<!-- Cert 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-md space-y-space-sm flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-secondary-container">
+<span class="material-symbols-outlined text-2xl">lock_clock</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">국가방산보안 A등급 공인</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              군사기밀보호법 및 방산보안업무훈령 기준 최고등급 인증. 물리적 차단 인프라 및 국방 망분리 운영체제를 가동합니다.
+            </p>
+</div>
+<div class="pt-space-xs font-label-telemetry text-label-telemetry text-secondary-container">
+            AUDIT: DAPA DEFENSE CLEARANCE A
+          </div>
+</div>
+<!-- Cert 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-md space-y-space-sm flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-2xl">flight_takeoff</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">AS9100D 국제항공우주인증</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              글로벌 항공우주 방산 티어-1(Tier-1) 파트너 자격 획득. 초음속 전투기 및 인공위성 탑재체 국제표준 품질 체계를 충족합니다.
+            </p>
+</div>
+<div class="pt-space-xs font-label-telemetry text-label-telemetry text-tertiary">
+            REGISTRATION: AS9100D / ISO 9001
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Defense Inquiry Trigger Banner -->
+<section class="w-full px-margin py-space-xl bg-surface-container-lowest">
+<div class="relative p-space-xl rounded-2xl bg-gradient-to-r from-surface-container-high via-surface-container to-surface-container-low shadow-xl overflow-hidden flex flex-col lg:flex-row items-center justify-between gap-space-lg">
+<div class="space-y-space-xs text-left max-w-2xl">
+<span class="font-label-telemetry text-label-telemetry text-secondary uppercase tracking-widest font-bold">DEFENSE PROCUREMENT &amp; PARTNERSHIP</span>
+<h3 class="font-headline-lg text-headline-lg font-bold text-on-surface">대한민국과 세계의 평화를 지키는 에어로디펜스와 함께하십시오</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          국방 획득 사업, 글로벌 공동 개발, 기술 제휴 및 방산 협력업체 등록을 위한 보안 상담 창구가 상시 열려 있습니다.
+        </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm shrink-0">
+<a class="px-space-lg py-3 rounded bg-primary-container text-on-primary-container hover:bg-secondary-container transition-all font-title-spec text-title-spec font-bold flex items-center gap-2 shadow-lg" data-path="contact" href="#">
+<span class="material-symbols-outlined text-base">outgoing_mail</span>
+<span>방산 조달 및 기술제휴 문의</span>
+</a>
+<a class="px-space-md py-3 rounded bg-surface-container-highest text-on-surface hover:text-secondary transition-all font-title-spec text-title-spec font-bold flex items-center gap-2" data-path="weapons" href="#">
+<span>핵심 무기체계 보러가기</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Timeline Filter Script (Vanilla JS for Tactical Tab Interaction) -->
+<script>
+    function filterEra(era) {
+      const nodes = document.querySelectorAll('.timeline-node');
+      const btnAll = document.getElementById('btn-era-all');
+      const btnFound = document.getElementById('btn-era-found');
+      const btnGrowth = document.getElementById('btn-era-growth');
+      const btnGlobal = document.getElementById('btn-era-global');
+
+      const buttons = [btnAll, btnFound, btnGrowth, btnGlobal];
+      buttons.forEach(b => {
+        if (!b) return;
+        b.className = 'px-space-sm py-1 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-code text-label-code';
+      });
+
+      if (era === 'all') {
+        btnAll.className = 'px-space-sm py-1 rounded bg-primary-container text-on-primary-container font-label-code text-label-code font-bold';
+        nodes.forEach(n => n.classList.remove('hidden'));
+      } else {
+        if (era === 'found' && btnFound) btnFound.className = 'px-space-sm py-1 rounded bg-primary-container text-on-primary-container font-label-code text-label-code font-bold';
+        if (era === 'growth' && btnGrowth) btnGrowth.className = 'px-space-sm py-1 rounded bg-primary-container text-on-primary-container font-label-code text-label-code font-bold';
+        if (era === 'global' && btnGlobal) btnGlobal.className = 'px-space-sm py-1 rounded bg-primary-container text-on-primary-container font-label-code text-label-code font-bold';
+
+        nodes.forEach(n => {
+          if (n.getAttribute('data-era') === era) {
+            n.classList.remove('hidden');
+          } else {
+            n.classList.add('hidden');
+          }
+        });
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/40 mt-auto"><div class="w-full px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-lg pb-space-lg border-b border-outline-variant/30"><div class="lg:col-span-5 space-y-space-md"><div class="flex items-center gap-space-sm"><div class="p-1 rounded bg-surface-container-high border border-outline-variant/40"><img alt="에어로디펜스 심볼" class="w-6 h-6 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVTcCx9Dcae_7ktnR__8qUbjNLZFVopCILXBM-zliEcM8qwRhr3pDw0doIOUgjHclKOreiO4355WIpvUZeCBCHmGh9FsVVsULouGNf-QL1qtiy3Nr51VFsasCjW6kzzHNPRgqpR5zXS9Ok4Im4XG4-B-ORWXNvnv2x9zd2Eu9NY0wE8gJIslbLSDBRYRn_V_bCRW9hhbY2EhL77xIDJQLdqD3QP4oRAwzRqONa_w0A9tCL7-UqRZQf"/></div><span class="font-headline-sm text-headline-sm font-extrabold text-on-surface tracking-wider">AERO DEFENSE</span><span class="px-2 py-0.5 rounded bg-surface-container-high border border-primary/30 font-label-telemetry text-label-telemetry text-primary font-bold">방위사업청 지정 방산업체</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed max-w-lg">에어로디펜스(한국방위기술 주식회사)는 대한민국 국방력 강화 및 자주국방 실현을 목표로 차세대 유도무기, 항공전자 레이다, 무인 복합 전투체계를 연구개발·생산하는 국가 핵심 지정 방위산업체입니다.</p><div class="flex flex-wrap items-center gap-space-sm pt-space-xs"><div class="flex items-center gap-1.5 px-space-sm py-1 rounded bg-error-container/30 border border-error/40 text-on-error-container font-label-code text-label-code font-bold"><span class="material-symbols-outlined text-sm text-error">verified_user</span><span>24H 국가보안신고센터: 080-890-0119</span></div><div class="flex items-center gap-1.5 px-space-sm py-1 rounded bg-surface-container-high border border-outline-variant/50 text-secondary font-label-telemetry text-label-telemetry"><span class="material-symbols-outlined text-sm">security</span><span>ISO 27001 국방정보보안체계 인증</span></div></div></div><div class="lg:col-span-4 space-y-space-sm"><h4 class="font-title-spec text-title-spec font-bold text-on-surface flex items-center gap-1.5"><span class="material-symbols-outlined text-secondary text-base">corporate_fare</span>주요 R&amp;D 거점 및 사업소 안내</h4><div class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><div class="p-space-xs rounded bg-surface-container-low/60 border border-outline-variant/20"><p class="text-on-surface font-semibold">판교 R&amp;D 첨단기술센터 (소프트웨어/항전)</p><p>경기도 성남시 분당구 판교역로 235 에어로타워 12~16F</p></div><div class="p-space-xs rounded bg-surface-container-low/60 border border-outline-variant/20"><p class="text-on-surface font-semibold">대전 종합연구본부 및 시험발사장</p><p>대전광역시 유성구 대덕대로 989 연구개발특구 제3단지</p></div><div class="p-space-xs rounded bg-surface-container-low/60 border border-outline-variant/20"><p class="text-on-surface font-semibold">창원 정밀 중공업 스마트팩토리</p><p>경상남도 창원시 성산구 정밀로 104 제1·2방산 제조공정</p></div></div></div><div class="lg:col-span-3 space-y-space-md flex flex-col justify-between"><div><h4 class="font-title-spec text-title-spec font-bold text-on-surface mb-space-xs flex items-center gap-1.5"><span class="material-symbols-outlined text-primary text-base">hub</span>국방 기관 및 패밀리 네트워크</h4><div class="relative"><select aria-label="국방 패밀리 사이트 선택" class="w-full bg-surface-container-high border border-outline-variant/50 text-on-surface rounded p-space-sm font-body-sm text-body-sm focus:border-secondary focus:outline-none"><option value="">관련 국방기관 바로가기</option><option value="dapa">방위사업청 (DAPA)</option><option value="add">국방과학연구소 (ADD)</option><option value="dtaq">국방기술품질원 (DTAQ)</option><option value="mnd">대한민국 국방부 (MND)</option><option value="aero-aero">에어로 에어로스페이스</option><option value="aero-land">에어로 랜드시스템즈</option></select></div></div><div class="space-y-1 font-label-code text-label-code text-on-surface-variant"><div class="flex justify-between"><span class="text-outline">대표전화</span><span class="text-on-surface">02-550-7000</span></div><div class="flex justify-between"><span class="text-outline">보안팩스</span><span class="text-on-surface">02-550-7999</span></div><div class="flex justify-between"><span class="text-outline">방산협력</span><span class="text-on-surface">defense_biz@aerodefense.co.kr</span></div></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-body-sm text-body-sm"><div class="flex flex-wrap items-center gap-space-md font-semibold"><a class="text-on-surface hover:text-secondary underline underline-offset-4 transition-colors" data-path="privacy" href="#">개인정보처리방침</a><span class="text-outline">|</span><a class="hover:text-on-surface transition-colors" data-path="security-rules" href="#">방위산업 보안업무규정</a><span class="text-outline">|</span><a class="hover:text-on-surface transition-colors" data-path="ethics" href="#">윤리경영 준법서약</a><span class="text-outline">|</span><a class="hover:text-on-surface transition-colors" href="#" onclick="document.getElementById('megamenu-overlay').classList.remove('hidden')">전체 사이트맵</a><span class="text-outline">|</span><a class="hover:text-on-surface transition-colors" data-path="contact" href="#">오시는길 및 면회신청</a></div><div class="font-label-telemetry text-label-telemetry text-outline text-right"><p>사업자등록번호: 104-81-29402 | 방산업체지정번호: 방사청-2018-09호</p><p class="mt-0.5">© 2025 AERO DEFENSE Corp. All rights reserved. 대한민국 국가방위기술 지적재산권 등록완료.</p></div></div></div></footer></body></html>

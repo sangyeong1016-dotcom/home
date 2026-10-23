@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>AERO DEFENSE | 대한민국 첨단 방위산업체</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300..900;1,300..900&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed-variant": "#004785", "error": "#ffb4ab", "on-error": "#690005", "on-tertiary-fixed-variant": "#7f2b00", "outline-variant": "#414752", "surface-container-lowest": "#060d24", "on-background": "#dce1ff", "on-secondary-fixed": "#001e2f", "secondary-fixed-dim": "#89ceff", "on-primary-container": "#f4f6ff", "on-tertiary-container": "#fff5f2", "primary": "#a5c8ff", "primary-fixed-dim": "#a5c8ff", "surface-container-low": "#141a32", "surface-variant": "#2d344c", "primary-container": "#0072ce", "on-error-container": "#ffdad6", "error-container": "#93000a", "on-secondary": "#00344d", "surface-container-highest": "#2d344c", "secondary-fixed": "#c9e6ff", "surface": "#0b1229", "on-surface-variant": "#c1c7d4", "on-tertiary-fixed": "#370e00", "inverse-surface": "#dce1ff", "on-secondary-fixed-variant": "#004c6e", "on-secondary-container": "#00344e", "primary-fixed": "#d4e3ff", "secondary": "#89ceff", "tertiary": "#ffb599", "surface-tint": "#a5c8ff", "surface-container-high": "#222941", "background": "#0b1229", "on-primary-fixed": "#001c3a", "tertiary-container": "#c64700", "tertiary-fixed-dim": "#ffb599", "on-tertiary": "#5a1c00", "inverse-primary": "#005fae", "surface-dim": "#0b1229", "on-primary": "#00315e", "tertiary-fixed": "#ffdbce", "secondary-container": "#00a2e6", "surface-container": "#181e36", "surface-bright": "#323851", "outline": "#8b919e", "inverse-on-surface": "#292f48", "on-surface": "#dce1ff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "space-xs": "0.25rem", "margin": "3rem", "gutter": "1.5rem", "space-sm": "0.5rem", "margin-sm": "1.25rem", "gutter-sm": "1rem", "space-md": "1rem", "space-xl": "2.5rem" }, "fontFamily": { "display-hero": [ "Chivo" ], "body-md": [ "Inter" ], "body-sm": [ "Inter" ], "headline-lg": [ "Chivo" ], "headline-md": [ "Chivo" ], "label-telemetry": [ "JetBrains Mono" ], "body-lg": [ "Inter" ], "label-code": [ "JetBrains Mono" ], "headline-sm": [ "Chivo" ], "display-hero-mobile": [ "Chivo" ], "title-spec": [ "Chivo" ], "headline-lg-mobile": [ "Chivo" ] }, "fontSize": { "display-hero": [ "64px", { "lineHeight": "72px", "fontWeight": "800" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-lg": [ "40px", { "lineHeight": "48px", "fontWeight": "700" } ], "headline-md": [ "28px", { "lineHeight": "36px", "fontWeight": "700" } ], "label-telemetry": [ "11px", { "lineHeight": "16px", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "label-code": [ "13px", { "lineHeight": "18px", "fontWeight": "500" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "fontWeight": "600" } ], "display-hero-mobile": [ "38px", { "lineHeight": "46px", "fontWeight": "800" } ], "title-spec": [ "16px", { "lineHeight": "24px", "fontWeight": "600" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "fontWeight": "700" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col justify-between"><header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-xl border-b border-outline-variant/30"><div class="w-full px-margin h-20 flex items-center justify-between"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm group" data-path="home" href="#"><div class="relative flex items-center justify-center p-space-xs bg-surface-container-high rounded border border-outline-variant/50"><img alt="AERO DEFENSE Emblem" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVTcCx9Dcae_7ktnR__8qUbjNLZFVopCILXBM-zliEcM8qwRhr3pDw0doIOUgjHclKOreiO4355WIpvUZeCBCHmGh9FsVVsULouGNf-QL1qtiy3Nr51VFsasCjW6kzzHNPRgqpR5zXS9Ok4Im4XG4-B-ORWXNvnv2x9zd2Eu9NY0wE8gJIslbLSDBRYRn_V_bCRW9hhbY2EhL77xIDJQLdqD3QP4oRAwzRqONa_w0A9tCL7-UqRZQf"/><div class="absolute -top-1 -right-1 w-2 h-2 rounded-full bg-secondary animate-ping"></div></div><div class="flex flex-col"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm tracking-wider font-extrabold text-on-surface">AERO DEFENSE</span><span class="font-label-telemetry text-label-telemetry px-1.5 py-0.5 rounded bg-primary-container text-on-primary-container uppercase font-bold tracking-widest">DAPA-SPEC</span></div><span class="font-label-code text-label-code text-on-surface-variant tracking-widest uppercase">한국방위기술 대한민국</span></div></a></div><nav class="hidden xl:flex items-center gap-space-xl h-20" data-active-classes="text-secondary border-b-2 border-secondary font-headline-sm"><a class="h-full flex items-center font-title-spec text-title-spec text-on-surface-variant hover:text-secondary transition-colors" data-path="home" href="index.html">홈 (HOME)</a><a class="h-full flex items-center font-title-spec text-title-spec text-on-surface-variant hover:text-secondary transition-colors" data-path="about" href="2.html">회사소개 (ABOUT)</a><a class="h-full flex items-center font-title-spec text-title-spec text-on-surface-variant hover:text-secondary transition-colors" data-path="weapons" href="3.html">무기체계 (WEAPONS)</a><a aria-current="page" class="h-full flex items-center transition-colors text-secondary border-b-2 border-secondary font-headline-sm" data-path="location" href="4.html">오시는 길 (LOCATION)</a><a class="h-full flex items-center font-title-spec text-title-spec text-on-surface-variant hover:text-secondary transition-colors" data-path="contact" href="#">고객센터 / 문의 (CONTACT)</a></nav><div class="flex items-center gap-space-md"><div class="hidden md:flex items-center bg-surface-container-low px-space-sm py-1 rounded border border-outline-variant/40"><button class="font-label-telemetry text-label-telemetry text-secondary font-bold px-space-xs py-0.5 rounded hover:text-on-surface transition-colors">KOR</button><span class="font-label-telemetry text-label-telemetry text-outline px-1">|</span><button class="font-label-telemetry text-label-telemetry text-on-surface-variant font-bold px-space-xs py-0.5 rounded hover:text-on-surface transition-colors">ENG</button></div><a class="hidden sm:flex items-center gap-space-xs px-space-md py-2 rounded bg-surface-container-high border border-outline-variant/60 hover:border-secondary hover:text-on-surface text-on-surface-variant transition-all" data-path="login" href="#"><span class="material-symbols-outlined text-title-spec text-secondary">lock</span><span class="font-label-code text-label-code uppercase tracking-wider font-semibold">보안포털 / 파트너스</span></a><button aria-label="사이트맵 전체메뉴 열기" class="flex items-center justify-center p-2 rounded bg-primary-container hover:bg-secondary-container text-on-primary-container transition-colors shadow-lg" id="megamenu-toggle" onclick="document.getElementById('megamenu-overlay').classList.toggle('hidden')"><span class="material-symbols-outlined">grid_view</span></button></div></div></header><div class="hidden fixed inset-0 z-40 bg-surface-container-lowest/95 backdrop-blur-2xl pt-20 border-b border-outline-variant/50 overflow-y-auto" id="megamenu-overlay"><div class="w-full px-margin py-space-xl"><div class="flex items-center justify-between pb-space-md border-b border-outline-variant/30 mb-space-lg"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-secondary">military_tech</span><span class="font-headline-sm text-headline-sm uppercase tracking-widest text-on-surface font-bold">전체 무기체계 및 기업 포털 사이트맵 (SITEMAP)</span></div><button class="flex items-center gap-1 text-on-surface-variant hover:text-error transition-colors" onclick="document.getElementById('megamenu-overlay').classList.add('hidden')"><span class="material-symbols-outlined">close</span><span class="font-label-telemetry text-label-telemetry uppercase tracking-widest font-bold">닫기 ESC</span></button></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg"><div class="p-space-lg bg-surface-container-low rounded border border-outline-variant/40"><div class="flex items-center gap-space-xs pb-space-sm mb-space-sm border-b border-outline-variant/40"><span class="font-label-telemetry text-label-telemetry text-secondary font-mono">SEC_01</span><h3 class="font-title-spec text-title-spec font-bold text-on-surface">회사소개 (ABOUT)</h3></div><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="about" href="#">CEO 인사말 &amp; 경영철학</a><span class="font-label-telemetry text-label-telemetry text-outline">01.1</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="about" href="#">방위산업 비전 2040</a><span class="font-label-telemetry text-label-telemetry text-outline">01.2</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="about" href="#">기업연혁 및 방산수출 현황</a><span class="font-label-telemetry text-label-telemetry text-outline">01.3</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="about" href="#">R&amp;D 첨단 방산 종합연구소</a><span class="font-label-telemetry text-label-telemetry text-outline">01.4</span></li></ul></div><div class="p-space-lg bg-surface-container-low rounded border border-outline-variant/40"><div class="flex items-center gap-space-xs pb-space-sm mb-space-sm border-b border-outline-variant/40"><span class="font-label-telemetry text-label-telemetry text-secondary font-mono">SEC_02</span><h3 class="font-title-spec text-title-spec font-bold text-on-surface">무기체계 (WEAPONS)</h3></div><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="weapons" href="#">정밀 타격 유도무기 체계</a><span class="font-label-telemetry text-label-telemetry text-outline">02.1</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="weapons" href="#">초음속 전투기 항공전자 &amp; 레이다</a><span class="font-label-telemetry text-label-telemetry text-outline">02.2</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="weapons" href="#">차세대 다목적 스마트 기갑전투체계</a><span class="font-label-telemetry text-label-telemetry text-outline">02.3</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="weapons" href="#">군집형 무인자율(UAV/UGV) 체계</a><span class="font-label-telemetry text-label-telemetry text-outline">02.4</span></li></ul></div><div class="p-space-lg bg-surface-container-low rounded border border-outline-variant/40"><div class="flex items-center gap-space-xs pb-space-sm mb-space-sm border-b border-outline-variant/40"><span class="font-label-telemetry text-label-telemetry text-secondary font-mono">SEC_03</span><h3 class="font-title-spec text-title-spec font-bold text-on-surface">연구·생산거점 (LOCATION)</h3></div><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="location" href="#">판교 첨단 미래기술 R&amp;D 센터</a><span class="font-label-telemetry text-label-telemetry text-outline">03.1</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="location" href="#">대전 유도무기 종합시험연구소</a><span class="font-label-telemetry text-label-telemetry text-outline">03.2</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="location" href="#">창원 스마트 중공업 양산기지</a><span class="font-label-telemetry text-label-telemetry text-outline">03.3</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="location" href="#">글로벌 MRO 해외 거점 현황</a><span class="font-label-telemetry text-label-telemetry text-outline">03.4</span></li></ul></div><div class="p-space-lg bg-surface-container-low rounded border border-outline-variant/40"><div class="flex items-center gap-space-xs pb-space-sm mb-space-sm border-b border-outline-variant/40"><span class="font-label-telemetry text-label-telemetry text-secondary font-mono">SEC_04</span><h3 class="font-title-spec text-title-spec font-bold text-on-surface">고객센터 / 보안 (CONTACT)</h3></div><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="contact" href="#">방산 조달 및 기술제휴 문의</a><span class="font-label-telemetry text-label-telemetry text-outline">04.1</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="contact" href="#">보안위규 24H 전담 신고센터</a><span class="font-label-telemetry text-label-telemetry text-outline">04.2</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="contact" href="#">방위산업 인재채용 지원센터</a><span class="font-label-telemetry text-label-telemetry text-outline">04.3</span></li><li class="flex items-center justify-between hover:text-primary"><a class="transition-colors" data-path="login" href="#">협력업체 방산 SCM 포털</a><span class="font-label-telemetry text-label-telemetry text-outline">04.4</span></li></ul></div></div><div class="mt-space-lg pt-space-md border-t border-outline-variant/30 flex flex-wrap items-center justify-between text-on-surface-variant font-label-telemetry text-label-telemetry"><span class="tracking-wider">DEFENSE CLASSIFICATION: LEVEL-3 NATIONAL CRITICAL INFRASTRUCTURE</span><span class="text-secondary">ONLINE TELEMETRY STATUS: NOMINAL (LATENCY 12ms)</span></div></div></div><main class="w-full pt-20 bg-background flex-1"><div class="flex flex-col w-full">
+<!-- Operational Breadcrumb & Telemetry Header Bar -->
+<section class="w-full bg-surface-container-lowest px-margin py-space-sm border-b border-outline-variant/30">
+<div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs font-label-telemetry text-label-telemetry tracking-widest uppercase">
+<span class="inline-block w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="text-secondary font-bold">SEC-GRID ONLINE</span>
+<span class="text-outline">/</span>
+<span class="text-on-surface-variant">LOC-CODE: KOR-DEF-FAC-2025</span>
+<span class="text-outline">/</span>
+<span class="text-on-surface">국가보안 가급·나급 지정 핵심방호구역</span>
+</div>
+<div class="flex items-center gap-space-md font-label-code text-label-code text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs text-secondary">verified</span>실시간 방문 보안 심사 시스템 가동중</span>
+<span class="text-outline">|</span>
+<span class="text-primary font-semibold">24H 보안상황실 : 031-789-9112</span>
+</div>
+</div>
+</section>
+<!-- Title / Introduction Section -->
+<section class="w-full bg-surface px-margin pt-space-xl pb-space-lg relative overflow-hidden">
+<div class="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-primary/5 blur-3xl pointer-events-none"></div>
+<div class="absolute left-1/3 bottom-0 w-80 h-32 bg-secondary-container/10 blur-2xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto relative z-10 flex flex-col md:flex-row md:items-end justify-between gap-space-lg">
+<div class="space-y-space-xs max-w-3xl">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-secondary font-label-telemetry text-label-telemetry font-bold tracking-widest border border-secondary/30">FACILITIES DIRECTORY</span>
+<span class="text-outline text-xs">●</span>
+<span class="font-label-code text-label-code text-on-surface-variant">전국 핵심 연구개발 및 첨단 방위산업 양산 기지</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight font-extrabold">
+          에어로디펜스 <span class="text-secondary">전국 연구개발 및 생산 거점</span> 안내
+        </h1>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed pt-space-xs">
+          자주국방의 기술 주권을 완성하는 판교 미래 R&amp;D 센터부터 대전의 유도무기 종합연구소, 창원의 첨단 기갑 체계 양산 단지 및 구미 전파시험센터까지 대한민국 전역의 전략 방호 시설을 소개합니다.
+        </p>
+</div>
+<!-- Quick Action Badges -->
+<div class="flex flex-wrap items-center gap-space-xs">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded bg-surface-container-high hover:bg-surface-bright text-on-surface text-label-code font-semibold transition-colors border border-outline-variant/40" href="#security-proc">
+<span class="material-symbols-outlined text-base text-secondary">verified_user</span>
+<span>보안출입 절차 가이드</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded bg-primary-container hover:bg-secondary-container text-on-primary-container text-label-code font-bold transition-all shadow-md" href="#dept-contacts">
+<span class="material-symbols-outlined text-base">support_agent</span>
+<span>출입·조달 담당부서 문의</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Interactive Facility Switcher Tabs -->
+<section class="w-full bg-surface-container px-margin border-y border-outline-variant/30 sticky top-20 z-30 backdrop-blur-md bg-surface-container/95">
+<div class="max-w-7xl mx-auto flex items-center justify-between overflow-x-auto no-scrollbar py-2">
+<div class="flex items-center gap-space-xs min-w-max" id="facility-tabs" role="tablist">
+<!-- Tab 1: Pangyo (Active by default) -->
+<button aria-selected="true" class="facility-tab-btn active px-space-md py-3 rounded-md text-left flex items-center gap-space-xs bg-primary-container text-on-primary-container transition-all" id="tab-btn-pangyo" onclick="switchFacility('pangyo')" role="tab">
+<span class="material-symbols-outlined text-lg">corporate_fare</span>
+<div class="flex flex-col text-left">
+<span class="font-title-spec text-title-spec font-bold leading-tight">판교 글로벌 R&amp;D 미래센터</span>
+<span class="font-label-telemetry text-label-telemetry opacity-80">본사 / 국방 AI &amp; 항전 SW 랩</span>
+</div>
+<span class="ml-1 px-1.5 py-0.5 rounded text-[10px] font-label-telemetry bg-black/20 text-white font-mono">FAC-01</span>
+</button>
+<!-- Tab 2: Daejeon -->
+<button aria-selected="false" class="facility-tab-btn px-space-md py-3 rounded-md text-left flex items-center gap-space-xs text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" id="tab-btn-daejeon" onclick="switchFacility('daejeon')" role="tab">
+<span class="material-symbols-outlined text-lg">rocket_launch</span>
+<div class="flex flex-col text-left">
+<span class="font-title-spec text-title-spec font-bold leading-tight">대전 국방종합기술연구소</span>
+<span class="font-label-telemetry text-label-telemetry text-outline">정밀 유도무기 &amp; 초고성능 레이다</span>
+</div>
+<span class="ml-1 px-1.5 py-0.5 rounded text-[10px] font-label-telemetry bg-surface-container-low text-on-surface-variant font-mono">FAC-02</span>
+</button>
+<!-- Tab 3: Changwon -->
+<button aria-selected="false" class="facility-tab-btn px-space-md py-3 rounded-md text-left flex items-center gap-space-xs text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" id="tab-btn-changwon" onclick="switchFacility('changwon')" role="tab">
+<span class="material-symbols-outlined text-lg">precision_manufacturing</span>
+<div class="flex flex-col text-left">
+<span class="font-title-spec text-title-spec font-bold leading-tight">창원 지상체계 양산공장</span>
+<span class="font-label-telemetry text-label-telemetry text-outline">기동 &amp; 다목적 스마트 기갑 복합단지</span>
+</div>
+<span class="ml-1 px-1.5 py-0.5 rounded text-[10px] font-label-telemetry bg-surface-container-low text-on-surface-variant font-mono">FAC-03</span>
+</button>
+<!-- Tab 4: Gumi -->
+<button aria-selected="false" class="facility-tab-btn px-space-md py-3 rounded-md text-left flex items-center gap-space-xs text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" id="tab-btn-gumi" onclick="switchFacility('gumi')" role="tab">
+<span class="material-symbols-outlined text-lg">sensors</span>
+<div class="flex flex-col text-left">
+<span class="font-title-spec text-title-spec font-bold leading-tight">구미 정밀전자 시험센터</span>
+<span class="font-label-telemetry text-label-telemetry text-outline">전파암실 &amp; 군집무인 무선시험동</span>
+</div>
+<span class="ml-1 px-1.5 py-0.5 rounded text-[10px] font-label-telemetry bg-surface-container-low text-on-surface-variant font-mono">FAC-04</span>
+</button>
+</div>
+<div class="hidden lg:flex items-center gap-space-xs pl-space-md text-outline font-label-telemetry text-label-telemetry">
+<span class="material-symbols-outlined text-sm">tune</span>
+<span>4개 권역 연동 중</span>
+</div>
+</div>
+</section>
+<!-- Interactive Facility Main Showcase (Pangyo default, switched via script) -->
+<section class="w-full bg-background px-margin py-space-xl">
+<div class="max-w-7xl mx-auto space-y-space-xl">
+<!-- Dynamic Content Panel -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start" id="facility-detail-container">
+<!-- Left: Facility Map View & Real-time Sensor Hud (Col 7) -->
+<div class="lg:col-span-7 space-y-space-md">
+<div class="relative rounded-lg overflow-hidden bg-surface-container-low border border-outline-variant/50 shadow-2xl">
+<!-- Map HUD Overlay Bar -->
+<div class="p-space-sm bg-surface-container-highest/90 border-b border-outline-variant/40 flex items-center justify-between text-on-surface">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-telemetry text-label-telemetry text-secondary font-bold" id="hud-facility-code">GRID-NODE: PG-01-HQ</span>
+<span class="text-outline text-xs">|</span>
+<span class="font-label-telemetry text-label-telemetry text-on-surface-variant" id="hud-facility-coord">37°23'58.2"N 127°06'35.8"E</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-telemetry text-label-telemetry border border-outline-variant/30 flex items-center gap-1">
+<span class="material-symbols-outlined text-xs text-secondary">radar</span> LIVE GPS
+                </span>
+<button class="p-1 hover:text-secondary text-on-surface-variant transition-colors" onclick="toggleMapFullscreen()" title="전체화면 전환">
+<span class="material-symbols-outlined text-base">fullscreen</span>
+</button>
+</div>
+</div>
+<!-- Virtual Map Canvas Container with data-location -->
+<div class="relative w-full h-[440px] bg-surface-container-lowest overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-all duration-500" data-alt="Dark tactical satellite map interface of Pangyo Techno Valley South Korea, defense telemetry overlay, neon blue coordinate lines, radar reticle rings, clean cartographic visualization." data-location="Pangyo Techno Valley, Seongnam, South Korea" id="dynamic-map-view" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAV9FMem5UeOSxnwG9_sofMWT890c9sGv1GmI0rYX2yKcYG4loHSFstgWhpppoGPS-sTW5viWUUBlHTtJsomxwfD3MoeT7kjUER9T5cMCpQSUNuauCTcj6lsCHGuNes3jCGwGAJJmTpnpNPJ6_LLbfH0oJ-4DSGfX9RisDubxtHArjS_CpAYkh2utpPdwTb2_64r0u2L9kJMSEtCiywXkBbNz03LRRCJNV_b81-qSWOnOvDTq37MObt')"></div>
+<!-- Subtle HUD Tactical Targeting Crosshair Graphic Overlay -->
+<div class="absolute inset-0 pointer-events-none flex items-center justify-center">
+<div class="relative w-72 h-72 border border-secondary/20 rounded-full flex items-center justify-center">
+<div class="absolute w-80 h-[1px] bg-gradient-to-r from-transparent via-secondary/40 to-transparent"></div>
+<div class="absolute h-80 w-[1px] bg-gradient-to-b from-transparent via-secondary/40 to-transparent"></div>
+<div class="w-32 h-32 border border-secondary/30 rounded-full border-dashed animate-spin" style="animation-duration: 40s;"></div>
+<!-- Target Pin -->
+<div class="absolute z-20 flex flex-col items-center">
+<div class="p-2 rounded-full bg-primary-container text-white shadow-lg shadow-primary-container/50 border border-secondary animate-bounce">
+<span class="material-symbols-outlined text-lg">shield</span>
+</div>
+<span class="mt-1 px-2 py-0.5 rounded bg-surface-container-highest/90 text-secondary font-label-telemetry text-label-telemetry font-bold border border-secondary/40 backdrop-blur-md" id="map-pin-label">
+                      판교 에어로디펜스타워
+                    </span>
+</div>
+</div>
+</div>
+<!-- Map Navigation Quick Control Overlay -->
+<div class="absolute bottom-4 left-4 z-20 flex items-center gap-2 bg-surface/90 backdrop-blur-md p-1.5 rounded border border-outline-variant/40">
+<button class="w-8 h-8 flex items-center justify-center rounded bg-surface-container-high hover:bg-secondary hover:text-surface text-on-surface transition-colors" onclick="adjustMapZoom(1)" title="확대">
+<span class="material-symbols-outlined text-base">add</span>
+</button>
+<button class="w-8 h-8 flex items-center justify-center rounded bg-surface-container-high hover:bg-secondary hover:text-surface text-on-surface transition-colors" onclick="adjustMapZoom(-1)" title="축소">
+<span class="material-symbols-outlined text-base">remove</span>
+</button>
+<div class="w-px h-5 bg-outline-variant/40"></div>
+<button class="px-2 py-1 rounded bg-surface-container-high hover:text-secondary text-on-surface font-label-telemetry text-label-telemetry flex items-center gap-1 transition-colors" onclick="resetMapView()">
+<span class="material-symbols-outlined text-sm">my_location</span> 센터정렬
+                </button>
+</div>
+<!-- Security Warning Badge in Map -->
+<div class="absolute top-4 right-4 z-20 px-3 py-1.5 rounded bg-surface-container-high/90 border border-tertiary-container/50 backdrop-blur-md flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary-container animate-ping"></span>
+<span class="font-label-telemetry text-label-telemetry text-tertiary font-bold">국가보안 1급 비인가 촬영 금지</span>
+</div>
+</div>
+<!-- External Navigation Quick Triggers -->
+<div class="p-space-md bg-surface-container flex flex-wrap items-center justify-between gap-space-sm border-t border-outline-variant/30">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-code text-label-code">
+<span class="material-symbols-outlined text-base text-secondary">near_me</span>
+<span>모바일 및 차량 내비게이션 바로가기</span>
+</div>
+<div class="flex flex-wrap items-center gap-2" id="nav-direct-links">
+<a class="px-3 py-1.5 rounded bg-[#fae100] text-[#3c1e1e] font-label-code text-label-code font-bold hover:brightness-105 transition-all flex items-center gap-1 shadow-sm" href="https://map.kakao.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-sm">navigation</span>
+<span>카카오맵 길찾기</span>
+</a>
+<a class="px-3 py-1.5 rounded bg-[#03cf5d] text-white font-label-code text-label-code font-bold hover:brightness-105 transition-all flex items-center gap-1 shadow-sm" href="https://map.naver.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-sm">directions</span>
+<span>네이버지도 연동</span>
+</a>
+<a class="px-3 py-1.5 rounded bg-surface-container-high text-on-surface font-label-code text-label-code font-bold hover:border-secondary transition-all flex items-center gap-1 border border-outline-variant/60" href="https://tmap.co.kr" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-sm">assistant_navigation</span>
+<span>티맵(TMAP)</span>
+</a>
+<button class="px-3 py-1.5 rounded bg-surface-container-highest text-secondary hover:bg-secondary hover:text-surface transition-all font-label-code text-label-code font-bold flex items-center gap-1 border border-outline-variant/40" onclick="window.print()">
+<span class="material-symbols-outlined text-sm">print</span>
+<span>약도 인쇄</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Transportation Logistics Grid (Subway, Bus, Vehicle) -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm" id="transport-blocks">
+<!-- Transit Card 1: Metro -->
+<div class="p-space-md rounded bg-surface-container-low border border-outline-variant/40 hover:border-secondary/40 transition-colors">
+<div class="flex items-center gap-2 mb-space-xs text-secondary">
+<span class="material-symbols-outlined">subway</span>
+<span class="font-title-spec text-title-spec font-bold text-on-surface">지하철 대중교통</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" id="transport-subway">
+<strong class="text-on-surface block">신분당선 · 경강선 판교역</strong>
+                1번 출구에서 테크노밸리 육교 방향 도보 5분 (약 380m) 직진 후 에어로디펜스타워 서문 방문객 게이트 진입
+              </p>
+</div>
+<!-- Transit Card 2: Bus -->
+<div class="p-space-md rounded bg-surface-container-low border border-outline-variant/40 hover:border-secondary/40 transition-colors">
+<div class="flex items-center gap-2 mb-space-xs text-secondary">
+<span class="material-symbols-outlined">directions_bus</span>
+<span class="font-title-spec text-title-spec font-bold text-on-surface">광역 및 시내버스</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" id="transport-bus">
+<strong class="text-on-surface block">‘동안교 / 판교테크노밸리’ 하차</strong>
+                간선: 390, 400 | 직행좌석: 9007, 9300, 9401번 정류장 하차 후 판교역로 사거리 맞은편 빌딩
+              </p>
+</div>
+<!-- Transit Card 3: Parking & Security Gate -->
+<div class="p-space-md rounded bg-surface-container-low border border-outline-variant/40 hover:border-secondary/40 transition-colors">
+<div class="flex items-center gap-2 mb-space-xs text-tertiary">
+<span class="material-symbols-outlined">local_parking</span>
+<span class="font-title-spec text-title-spec font-bold text-on-surface">자가용 및 보안 주차</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" id="transport-car">
+<strong class="text-on-surface block">지하 3~5F 방문객 전용 주차장</strong>
+                차량 번호판 사전 자동등록 차량만 지하 진입 가능. 미등록 시 지상 남문 검문소에서 임시 출입증 수령 필요
+              </p>
+</div>
+</div>
+</div>
+<!-- Right: Facility Deep Intelligence & Clearance Spec (Col 5) -->
+<div class="lg:col-span-5 space-y-space-md">
+<!-- Facility Spec Card -->
+<div class="p-space-lg rounded-lg bg-surface-container-low border-t-2 border-t-primary-container border-x border-b border-outline-variant/40 shadow-xl space-y-space-md">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-telemetry text-label-telemetry uppercase tracking-wider text-secondary font-bold" id="fac-sub-badge">HQ &amp; CENTRAL DEFENSE AI LAB</span>
+<span class="px-2 py-0.5 rounded text-[11px] font-label-telemetry font-bold bg-error-container/40 text-on-error-container border border-error/40" id="fac-security-level">
+                  보안등급 : 국가 나급
+                </span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold mt-1" id="fac-title">
+                판교 글로벌 R&amp;D 미래센터
+              </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed" id="fac-desc">
+                에어로디펜스의 차세대 유·무인 복합전투(MUM-T) AI 알고리즘, 항공전자 소프트웨어 아키텍처 및 위성통신 링크를 연구하는 핵심 싱크탱크입니다.
+              </p>
+</div>
+<!-- Monospaced Metric Grid -->
+<div class="grid grid-cols-2 gap-2 bg-surface-container-lowest p-space-sm rounded border border-outline-variant/30 font-label-code text-label-code">
+<div class="p-2 rounded bg-surface-container-low/80">
+<span class="text-outline text-xs block">대표 소재지</span>
+<span class="text-on-surface font-semibold text-xs leading-normal" id="fac-address-short">경기 성남시 분당구 판교역로 235</span>
+</div>
+<div class="p-2 rounded bg-surface-container-low/80">
+<span class="text-outline text-xs block">연구단지 규모</span>
+<span class="text-secondary font-bold" id="fac-size">연면적 48,250㎡ (지하5F~지상16F)</span>
+</div>
+<div class="p-2 rounded bg-surface-container-low/80">
+<span class="text-outline text-xs block">주요 연구인력</span>
+<span class="text-on-surface font-bold" id="fac-staff">방산 수석연구원 780여명</span>
+</div>
+<div class="p-2 rounded bg-surface-container-low/80">
+<span class="text-outline text-xs block">출입 통제 등급</span>
+<span class="text-tertiary font-bold" id="fac-access-ctrl">생체 홍채인식 &amp; RF 패스</span>
+</div>
+</div>
+<!-- Facility Real-time Environmental Telemetry -->
+<div class="p-space-sm rounded bg-surface-container border border-outline-variant/30 space-y-2">
+<div class="flex items-center justify-between text-xs font-label-telemetry">
+<span class="text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-xs text-secondary">nest_cam_wired_stand</span> 방호 구역 보안 상황
+                </span>
+<span class="text-secondary font-bold">정상 가동 (NORMAL OPERATIONAL)</span>
+</div>
+<div class="w-full bg-surface-container-lowest h-1.5 rounded-full overflow-hidden">
+<div class="bg-gradient-to-r from-primary via-secondary to-secondary-container h-full w-[94%]"></div>
+</div>
+<div class="flex justify-between text-[11px] font-label-telemetry text-outline">
+<span>외곽 감시 레이더 100%</span>
+<span>보안통제실 레이턴시 8ms</span>
+<span>비상대응팀 대기중</span>
+</div>
+</div>
+<!-- Full Address & Coordinates Copy Block -->
+<div class="p-space-sm rounded bg-surface-container-lowest border border-outline-variant/40 space-y-space-xs">
+<span class="font-label-telemetry text-label-telemetry text-outline uppercase">도로명 정밀 상세 주소</span>
+<div class="flex items-center justify-between gap-2">
+<span class="font-body-sm text-body-sm text-on-surface font-medium select-all" id="fac-full-address">
+                  경기도 성남시 분당구 판교역로 235 에어로디펜스타워 (우편번호: 13494)
+                </span>
+<button class="p-1.5 rounded bg-surface-container hover:bg-surface-bright text-secondary hover:text-white transition-colors flex-shrink-0" onclick="copyAddressToClipboard()" title="주소 복사">
+<span class="material-symbols-outlined text-sm">content_copy</span>
+</button>
+</div>
+<p class="hidden text-secondary font-label-telemetry text-[11px]" id="copy-notify">✓ 주소가 클립보드에 복사되었습니다.</p>
+</div>
+<!-- Quick Direct Call / Security Dispatch -->
+<div class="flex items-center gap-space-xs pt-space-xs">
+<a class="flex-1 py-3 px-space-md rounded bg-primary-container hover:bg-secondary-container text-on-primary-container text-center font-title-spec text-title-spec font-bold transition-colors flex items-center justify-center gap-2" href="tel:031-789-9000" id="fac-call-btn">
+<span class="material-symbols-outlined text-base">call</span>
+<span>센터 안내실 연결 (031-789-9000)</span>
+</a>
+<button class="py-3 px-space-md rounded bg-surface-container-high hover:bg-surface-bright text-secondary font-title-spec text-title-spec font-bold transition-colors flex items-center justify-center gap-2 border border-secondary/40" onclick="openSecurityBookingModal()">
+<span class="material-symbols-outlined text-base">badge</span>
+<span>방문 예약 신청</span>
+</button>
+</div>
+</div>
+<!-- Facility Facility Photo Showcase Banner -->
+<div class="relative rounded-lg overflow-hidden bg-surface-container-low border border-outline-variant/30 h-44 group">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Futuristic high-tech defense aerospace research and development headquarters building in Pangyo, sleek dark glass facade, security entrance gate with neon blue accents, pristine modern architecture at twilight." id="fac-photo" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDwaAguuQGIp6o-BQ23eoCeVqADtbdqmcknC3h_A-iuz7dTjizdZ_cbG82dqI79KEgLPOe-HOkFX2ztOETcI3VGmf4jpQiqIxVapjbZni5dpUpsCOyWoDZTPsLq7Ce8otBHRs3NRXrfmmbDyI-7580IfXFyO-Ii2l55v07GGfc1O2fzZsYMf-dOSqL_5_wdDoulad-WUVc0HxSgeJ42fNEtHt1VVeszZHD3stbazfy6s83AXQoXsMGY')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/90 via-transparent to-transparent flex items-end p-space-md">
+<div class="flex items-center justify-between w-full">
+<div>
+<span class="font-label-telemetry text-label-telemetry text-secondary uppercase font-bold">SURFACE ARCHITECTURE</span>
+<p class="font-body-sm text-body-sm font-semibold text-white" id="fac-photo-caption">판교 R&amp;D 메인 파사드 및 보안 검문소</p>
+</div>
+<span class="material-symbols-outlined text-secondary opacity-70">photo_camera</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Security Protocol & Clearance Workflow Section -->
+<section class="w-full bg-surface-container-low px-margin py-space-xl border-t border-outline-variant/30 relative" id="security-proc">
+<div class="max-w-7xl mx-auto space-y-space-lg">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md border-b border-outline-variant/30 pb-space-md">
+<div class="space-y-1">
+<div class="flex items-center gap-space-xs font-label-telemetry text-label-telemetry text-tertiary font-bold tracking-widest uppercase">
+<span class="material-symbols-outlined text-sm">gavel</span>
+<span>NATIONAL DEFENSE SECURITY DIRECTIVE</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-extrabold tracking-tight">
+            보안시설 방문 예약 및 보안 출입 절차
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            에어로디펜스의 모든 연구소 및 생산 사업장은 「방위산업기술보호법」에 의거한 국가 핵심 보안시설로 철저한 사전 승인 절차를 거쳐야 출입이 가능합니다.
+          </p>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-3 py-1.5 rounded bg-surface-container-high border border-outline-variant/50 text-on-surface font-label-code text-label-code">
+            처리 소요시간: 사전 신청 후 평균 24시간
+          </span>
+</div>
+</div>
+<!-- 4-Step Tactical Workflow Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md relative">
+<!-- Step 1 -->
+<div class="p-space-lg rounded-lg bg-surface-container border border-outline-variant/40 relative group hover:border-secondary/60 transition-all flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-telemetry text-2xl font-black text-secondary">01</span>
+<span class="px-2 py-0.5 rounded text-[10px] font-label-telemetry font-bold bg-primary-container/30 text-primary uppercase">Step 01</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-secondary">assignment_add</span>
+<h3 class="font-title-spec text-title-spec font-bold">사전 방문 신청 및 서약</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              방문 예정 최소 3일 전, 담당 부서 임직원을 통하여 <strong>‘전자 보안출입신청서’</strong> 접수 및 온라인 국방비밀유지 서약서를 작성합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-outline-variant/20 font-label-telemetry text-label-telemetry text-outline flex items-center justify-between">
+<span>방문자 인적사항 제출</span>
+<span class="text-secondary">D-3 REQ</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="p-space-lg rounded-lg bg-surface-container border border-outline-variant/40 relative group hover:border-secondary/60 transition-all flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-telemetry text-2xl font-black text-secondary">02</span>
+<span class="px-2 py-0.5 rounded text-[10px] font-label-telemetry font-bold bg-secondary/20 text-secondary uppercase">Step 02</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-secondary">verified_user</span>
+<h3 class="font-title-spec text-title-spec font-bold">신원 확인 및 승인 문자</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              국방보안 규정에 따른 신원 적격성 검증 통과 후, 방문객 휴대전화로 <strong>보안 QR 출입패스</strong>와 승인 통보 SMS가 전송됩니다.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-outline-variant/20 font-label-telemetry text-label-telemetry text-outline flex items-center justify-between">
+<span>신원조회 완료 알림</span>
+<span class="text-secondary">QR CODE SMS</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="p-space-lg rounded-lg bg-surface-container border border-outline-variant/40 relative group hover:border-secondary/60 transition-all flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-telemetry text-2xl font-black text-tertiary">03</span>
+<span class="px-2 py-0.5 rounded text-[10px] font-label-telemetry font-bold bg-tertiary/20 text-tertiary uppercase">Step 03</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-tertiary">phonelink_lock</span>
+<h3 class="font-title-spec text-title-spec font-bold">신분증 교환 및 기기 통제</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              1층 보안안내실 도착 후 정부공인 신분증 제출, <strong>스마트폰 카메라 보안스티커 봉인</strong> 또는 사내 MDM 보안앱 설치 통제를 진행합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-outline-variant/20 font-label-telemetry text-label-telemetry text-outline flex items-center justify-between">
+<span>USB/노트북 반입 심사</span>
+<span class="text-tertiary">SECURITY SEAL</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="p-space-lg rounded-lg bg-surface-container border border-outline-variant/40 relative group hover:border-secondary/60 transition-all flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-telemetry text-2xl font-black text-primary">04</span>
+<span class="px-2 py-0.5 rounded text-[10px] font-label-telemetry font-bold bg-primary/20 text-primary uppercase">Step 04</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-primary">groups</span>
+<h3 class="font-title-spec text-title-spec font-bold">에스코트 대동 및 접견</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              임시 스마트 방문패스를 착용하고 사내 <strong>담당 인솔 임직원의 전 일정 에스코트</strong> 하에 지정된 접견실 및 회의 구역으로 이동합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-outline-variant/20 font-label-telemetry text-label-telemetry text-outline flex items-center justify-between">
+<span>퇴청 시 방문증 반납</span>
+<span class="text-primary">FULL ESCORT</span>
+</div>
+</div>
+</div>
+<!-- Mandatory Security Rules Warning Notice Banner -->
+<div class="p-space-md rounded bg-surface-container-highest border-l-4 border-l-tertiary-container flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-2xl mt-0.5">warning</span>
+<div class="space-y-0.5">
+<h4 class="font-title-spec text-title-spec font-bold text-on-surface">반입 금지 물품 및 위규 처벌 안내</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              인가받지 않은 개인 노트북, 카메라, 이동식 저장매체(USB, 외장하드), 무선 송수신기 및 음성 녹음 장비의 반입은 법적으로 엄격히 금지됩니다. (위반 시 방산기술보호법 제19조에 의거 형사고발 조치)
+            </p>
+</div>
+</div>
+<button class="px-space-md py-2 rounded bg-surface-container-low hover:bg-surface-bright text-on-surface font-label-code text-label-code font-bold transition-colors whitespace-nowrap border border-outline-variant/40" onclick="openSecurityManual()">
+          보안규정 전문 다운로드 (PDF)
+        </button>
+</div>
+</div>
+</section>
+<!-- Department Directory & Contact Grid -->
+<section class="w-full bg-surface px-margin py-space-xl border-t border-outline-variant/30" id="dept-contacts">
+<div class="max-w-7xl mx-auto space-y-space-lg">
+<!-- Section Title -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm border-b border-outline-variant/30 pb-space-sm">
+<div>
+<span class="font-label-telemetry text-label-telemetry text-secondary font-bold tracking-wider uppercase">COMMUNICATIONS &amp; LIAISON</span>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface tracking-tight">
+            본사 및 사업장 담당 부서별 연락처 안내
+          </h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          업무 목적에 맞는 부서로 직접 문의하시면 신속하고 정확한 보안 인가를 지원합니다.
+        </p>
+</div>
+<!-- Department Cards Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Dept Card 1: 총무 / 시설관리 -->
+<div class="p-space-lg rounded-lg bg-surface-container-low border border-outline-variant/40 hover:border-secondary/40 transition-all flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="p-2 rounded bg-surface-container-high text-secondary">
+<span class="material-symbols-outlined">domain</span>
+</span>
+<span class="font-label-telemetry text-label-telemetry text-outline">DEPT-01</span>
+</div>
+<h3 class="font-title-spec text-title-spec font-bold text-on-surface">총무지원팀 / 사옥시설관리</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              사옥 일반 내방객 접견, 일반 주차 등록, 세미나 및 기술 설명회 대관 지원을 담당합니다.
+            </p>
+<div class="pt-space-xs space-y-1.5 font-label-code text-label-code text-on-surface-variant">
+<div class="flex justify-between items-center py-1 border-b border-outline-variant/20">
+<span class="text-outline">전화 (대표)</span>
+<a class="text-on-surface hover:text-secondary font-semibold" href="tel:031-789-9100">031-789-9100</a>
+</div>
+<div class="flex justify-between items-center py-1 border-b border-outline-variant/20">
+<span class="text-outline">팩스</span>
+<span class="text-on-surface">031-789-9109</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span class="text-outline">이메일</span>
+<a class="text-secondary hover:underline" href="mailto:admin@aerodefense.co.kr">admin@aerodefense.co.kr</a>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-outline-variant/30 flex justify-between items-center font-label-telemetry text-label-telemetry text-outline">
+<span>운영시간 : 평일 08:30 ~ 17:30</span>
+<span class="text-secondary">판교 본관 2F</span>
+</div>
+</div>
+<!-- Dept Card 2: 보안관리팀 -->
+<div class="p-space-lg rounded-lg bg-surface-container-low border border-outline-variant/40 hover:border-secondary/40 transition-all flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="p-2 rounded bg-surface-container-high text-tertiary">
+<span class="material-symbols-outlined">shield_lock</span>
+</span>
+<span class="font-label-telemetry text-label-telemetry text-outline">DEPT-02</span>
+</div>
+<h3 class="font-title-spec text-title-spec font-bold text-on-surface">방산보안기획팀 / 종합상황실</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              외국인 보안 심사, 비밀 취급인가자 접견 확인, 전자기기 반출입 승인 및 24시간 상황 관제를 담당합니다.
+            </p>
+<div class="pt-space-xs space-y-1.5 font-label-code text-label-code text-on-surface-variant">
+<div class="flex justify-between items-center py-1 border-b border-outline-variant/20">
+<span class="text-outline">보안데스크</span>
+<a class="text-on-surface hover:text-tertiary font-semibold" href="tel:031-789-9112">031-789-9112</a>
+</div>
+<div class="flex justify-between items-center py-1 border-b border-outline-variant/20">
+<span class="text-outline">비상 핫라인</span>
+<span class="text-tertiary font-bold">080-890-0119 (무료)</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span class="text-outline">보안접수 메일</span>
+<a class="text-secondary hover:underline" href="mailto:security_hq@aerodefense.co.kr">security_hq@aerodefense.co.kr</a>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-outline-variant/30 flex justify-between items-center font-label-telemetry text-label-telemetry text-outline">
+<span>24시간 365일 비상 대기</span>
+<span class="text-tertiary">방산보안 1층</span>
+</div>
+</div>
+<!-- Dept Card 3: 납품 / 조달 / 협력사 상담 -->
+<div class="p-space-lg rounded-lg bg-surface-container-low border border-outline-variant/40 hover:border-secondary/40 transition-all flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="p-2 rounded bg-surface-container-high text-primary">
+<span class="material-symbols-outlined">handshake</span>
+</span>
+<span class="font-label-telemetry text-label-telemetry text-outline">DEPT-03</span>
+</div>
+<h3 class="font-title-spec text-title-spec font-bold text-on-surface">국방조달 &amp; 공급망협력실</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              방산 부품 국산화 협력사 기술상담, 원자재 및 모듈 납품 차량 출입 인가, DAPA 조달 절차 연계를 지원합니다.
+            </p>
+<div class="pt-space-xs space-y-1.5 font-label-code text-label-code text-on-surface-variant">
+<div class="flex justify-between items-center py-1 border-b border-outline-variant/20">
+<span class="text-outline">조달 상담</span>
+<a class="text-on-surface hover:text-primary font-semibold" href="tel:031-789-9300">031-789-9300</a>
+</div>
+<div class="flex justify-between items-center py-1 border-b border-outline-variant/20">
+<span class="text-outline">SCM 포털문의</span>
+<span class="text-on-surface">031-789-9305</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span class="text-outline">협력사 제안</span>
+<a class="text-secondary hover:underline" href="mailto:defense_scm@aerodefense.co.kr">defense_scm@aerodefense.co.kr</a>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-outline-variant/30 flex justify-between items-center font-label-telemetry text-label-telemetry text-outline">
+<span>운영시간 : 평일 09:00 ~ 18:00</span>
+<span class="text-primary">판교 연구동 4F</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Visitor Security Pre-Registration Modal (Client-side interactive) -->
+<div class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-surface-container-lowest/80 backdrop-blur-md" id="booking-modal">
+<div class="w-full max-w-xl bg-surface-container-low rounded-lg border border-outline-variant/60 shadow-2xl overflow-hidden animate-fade-in">
+<div class="p-space-md bg-surface-container-highest border-b border-outline-variant/40 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">badge</span>
+<h3 class="font-title-spec text-title-spec font-bold text-on-surface">국방 보안시설 온라인 방문 신청 (예약)</h3>
+</div>
+<button class="text-on-surface-variant hover:text-error transition-colors" onclick="closeSecurityBookingModal()">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<form class="p-space-lg space-y-space-md" onsubmit="handleBookingSubmit(event)">
+<div class="p-space-xs rounded bg-surface-container-highest/60 border border-outline-variant/30 text-xs font-body-sm text-on-surface-variant">
+          ※ 신청된 내역은 국방보안업무훈령 제45조에 따라 신원조사 대상이 될 수 있으며, 방문일 기준 최소 48시간 전 접수되어야 합니다.
+        </div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="space-y-1">
+<label class="block font-label-code text-label-code text-on-surface-variant">방문 희망 사업장</label>
+<select class="w-full bg-surface-container border border-outline-variant/50 rounded p-2 text-on-surface font-body-sm focus:border-secondary focus:outline-none" id="modal-fac-select">
+<option value="판교 글로벌 R&amp;D 미래센터">판교 글로벌 R&amp;D 미래센터</option>
+<option value="대전 국방종합기술연구소">대전 국방종합기술연구소</option>
+<option value="창원 지상체계 양산공장">창원 지상체계 양산공장</option>
+<option value="구미 정밀전자 시험센터">구미 정밀전자 시험센터</option>
+</select>
+</div>
+<div class="space-y-1">
+<label class="block font-label-code text-label-code text-on-surface-variant">방문 희망 일시</label>
+<input class="w-full bg-surface-container border border-outline-variant/50 rounded p-2 text-on-surface font-body-sm focus:border-secondary focus:outline-none" required="" type="date"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="space-y-1">
+<label class="block font-label-code text-label-code text-on-surface-variant">방문자 성명</label>
+<input class="w-full bg-surface-container border border-outline-variant/50 rounded p-2 text-on-surface font-body-sm focus:border-secondary focus:outline-none" placeholder="홍길동" required="" type="text"/>
+</div>
+<div class="space-y-1">
+<label class="block font-label-code text-label-code text-on-surface-variant">소속 기관 / 기업체명</label>
+<input class="w-full bg-surface-container border border-outline-variant/50 rounded p-2 text-on-surface font-body-sm focus:border-secondary focus:outline-none" placeholder="국방기술진흥연구소 / 협력사명" required="" type="text"/>
+</div>
+</div>
+<div class="space-y-1">
+<label class="block font-label-code text-label-code text-on-surface-variant">연락처 (휴대전화 SMS 수신용)</label>
+<input class="w-full bg-surface-container border border-outline-variant/50 rounded p-2 text-on-surface font-body-sm focus:border-secondary focus:outline-none" placeholder="010-0000-0000" required="" type="tel"/>
+</div>
+<div class="space-y-1">
+<label class="block font-label-code text-label-code text-on-surface-variant">방문 목적 및 사내 접견 임직원</label>
+<input class="w-full bg-surface-container border border-outline-variant/50 rounded p-2 text-on-surface font-body-sm focus:border-secondary focus:outline-none" placeholder="무인항전 소프트웨어 기술회의 (담당: 유도무기 1팀 김철수 수석)" required="" type="text"/>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<input class="w-4 h-4 rounded bg-surface border-outline-variant text-primary-container focus:ring-0" id="pledge-check" required="" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-on-surface-variant" for="pledge-check">
+            방위산업 보안관리규정 및 개인정보 수집·이용에 전적으로 동의합니다.
+          </label>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-space-md border-t border-outline-variant/30">
+<button class="px-space-md py-2 rounded bg-surface-container hover:bg-surface-bright text-on-surface-variant font-label-code text-label-code transition-colors" onclick="closeSecurityBookingModal()" type="button">
+            취소
+          </button>
+<button class="px-space-lg py-2 rounded bg-primary-container hover:bg-secondary-container text-on-primary-container font-label-code text-label-code font-bold transition-colors shadow-md" type="submit">
+            사전 출입 신청서 제출
+          </button>
+</div>
+</form>
+</div>
+</div>
+<!-- Interactive Logic Script -->
+<script>
+    // Facility Data Store
+    const facilities = {
+      pangyo: {
+        code: 'GRID-NODE: PG-01-HQ',
+        coord: '37°23\'58.2"N 127°06\'35.8"E',
+        title: '판교 글로벌 R&D 미래센터',
+        subBadge: 'HQ & CENTRAL DEFENSE AI LAB',
+        secLevel: '보안등급 : 국가 나급',
+        desc: '에어로디펜스의 차세대 유·무인 복합전투(MUM-T) AI 알고리즘, 항공전자 소프트웨어 아키텍처 및 위성통신 링크를 연구하는 핵심 싱크탱크입니다.',
+        addressShort: '경기 성남시 분당구 판교역로 235',
+        fullAddress: '경기도 성남시 분당구 판교역로 235 에어로디펜스타워 (우편번호: 13494)',
+        size: '연면적 48,250㎡ (지하5F~지상16F)',
+        staff: '방산 수석연구원 780여명',
+        access: '생체 홍채인식 & RF 패스',
+        phone: '031-789-9000',
+        callText: '센터 안내실 연결 (031-789-9000)',
+        pin: '판교 에어로디펜스타워',
+        locationAttr: 'Pangyo Techno Valley, Seongnam, South Korea',
+        photoAlt: 'Futuristic high-tech defense aerospace research and development headquarters building in Pangyo, sleek dark glass facade, security entrance gate with neon blue accents, pristine modern architecture at twilight.',
+        photoCaption: '판교 R&D 메인 파사드 및 보안 검문소',
+        subway: '<strong class="text-on-surface block">신분당선 · 경강선 판교역</strong> 1번 출구에서 테크노밸리 육교 방향 도보 5분 (약 380m) 직진 후 에어로디펜스타워 서문 방문객 게이트 진입',
+        bus: '<strong class="text-on-surface block">‘동안교 / 판교테크노밸리’ 하차</strong> 간선: 390, 400 | 직행좌석: 9007, 9300, 9401번 정류장 하차 후 판교역로 사거리 맞은편 빌딩',
+        car: '<strong class="text-on-surface block">지하 3~5F 방문객 전용 주차장</strong> 차량 번호판 사전 자동등록 차량만 지하 진입 가능. 미등록 시 지상 남문 검문소에서 임시 출입증 수령 필요'
+      },
+      daejeon: {
+        code: 'GRID-NODE: DJ-02-MISSILE',
+        coord: '36°23\'11.4"N 127°22\'45.1"E',
+        title: '대전 국방종합기술연구소',
+        subBadge: 'PRECISION GUIDED WEAPONS & AESA LAB',
+        secLevel: '보안등급 : 국가 가급 (최고보안)',
+        desc: '정밀 타격 초음속 유도무기 체계, AESA 초광대역 레이다 센서 및 고출력 레이저 지향성 요격 체계를 실증 시험하는 종합 무기체계 연구단지입니다.',
+        addressShort: '대전 유성구 대덕대로 989',
+        fullAddress: '대전광역시 유성구 대덕대로 989 연구개발특구 제3연구단지 B구역 (우편번호: 34112)',
+        size: '부지 320,000㎡ / 시험동 14개소',
+        staff: '전문 연구원 및 시험평가단 620여명',
+        access: '국가보안 1급 안면/지문 이중 통제',
+        phone: '042-870-8000',
+        callText: '대전연구소 보안실 (042-870-8000)',
+        pin: '대전 국방종합기술연구소',
+        locationAttr: 'Daedeok Innopolis, Daejeon, South Korea',
+        photoAlt: 'High-security defense missile test center in Daejeon Daedeok valley, clean concrete laboratories, radome spherical antenna tower, surrounded by reinforced perimeter fencing at dusk.',
+        photoCaption: '대전 유도체계 종합전파시험장 및 돔 레이다 타워',
+        subway: '<strong class="text-on-surface block">대전도시철도 1호선 반석역 / 정부청사역</strong> 반석역 3번 출구에서 택시 12분 또는 국방특구 셔틀버스 승차 (신분증 제시 필수)',
+        bus: '<strong class="text-on-surface block">‘대덕특구 연구3단지 종합센터’ 하차</strong> 간선: 704번, 301번 / 지선: 마을1번 하차 후 국방종합기술연구소 동문 검문소 방면',
+        car: '<strong class="text-on-surface block">북대전IC 진출 후 10분 거리</strong> 차량 하부 폭발물 탐지 스캐너 통과 필수. 트렁크 검사 및 대형 장비 반입 시 사전 화물 승인 필요'
+      },
+      changwon: {
+        code: 'GRID-NODE: CW-03-PLANT',
+        coord: '35°12\'18.9"N 128°39\'40.2"E',
+        title: '창원 지상체계 양산공장',
+        subBadge: 'SMART HEAVY DEFENSE MANUFACTURING',
+        secLevel: '보안등급 : 국가 가급',
+        desc: 'K-시리즈 스마트 자주포, 다목적 무인 지상전투차량(UGV), 차세대 전차 복합장갑 조립 및 정밀 포탑 시스템을 양산하는 첨단 스마트팩토리입니다.',
+        addressShort: '경남 창원시 성산구 정밀로 104',
+        fullAddress: '경상남도 창원시 성산구 정밀로 104 제1·2방산 스마트제조공정 (우편번호: 51558)',
+        size: '공장부지 450,000㎡ (연 생산 120대)',
+        staff: '생산기술 및 공정 엔지니어 1,100여명',
+        access: '차량 검문소 통제 및 바코드 패스',
+        phone: '055-278-7000',
+        callText: '창원공장 정문안내실 (055-278-7000)',
+        pin: '창원 지상체계 스마트팩토리',
+        locationAttr: 'Changwon Industry Complex, Gyeongsangnam-do, South Korea',
+        photoAlt: 'Heavy defense manufacturing plant in Changwon, robotic arm assembling armored combat vehicle chassis in a futuristic clean factory, glowing industrial blue lighting.',
+        photoCaption: '창원 제1공장 기갑차체 스마트 용접 자동화 라인',
+        subway: '<strong class="text-on-surface block">KTX 창원중앙역 / 창원역</strong> 창원중앙역 하차 후 택시 15분 거리 (성산구 스마트공단 방위산업 단지 방향)',
+        bus: '<strong class="text-on-surface block">‘정밀공업단지 사거리’ 하차</strong> 시내버스: 101, 107, 115, 212번 하차 후 에어로디펜스 제1게이트 도보 3분',
+        car: '<strong class="text-on-surface block">동마산IC 또는 창원IC 진출</strong> 대형 부품 운송 차량은 3번 화물 전용 게이트를 이용하며 탁송 기사는 보안서약 후 임시패스 착용'
+      },
+      gumi: {
+        code: 'GRID-NODE: GM-04-TEST',
+        coord: '36°07\'44.5"N 128°23\'19.0"E',
+        title: '구미 정밀전자 시험센터',
+        subBadge: 'ANECHOIC CHAMBER & RF EM LAB',
+        secLevel: '보안등급 : 국가 나급',
+        desc: '항공기 탑재 전자전(EW) 수트, 무인 편대기 초정밀 위성 데이터링크 및 대형 전파 무반향 암실(Anechoic Chamber)을 운용하는 전자 시험 특화 센터입니다.',
+        addressShort: '경북 구미시 첨단산단로 52',
+        fullAddress: '경상북도 구미시 첨단산단로 52 에어로 국방전자 시험원 (우편번호: 39180)',
+        size: '대형 전파암실 3개소 (체적 12,000㎥)',
+        staff: 'RF/EMC 전문 시험연구원 290여명',
+        access: '전파차폐 및 전자기기 완전 봉인',
+        phone: '054-469-6000',
+        callText: '구미시험센터 안내실 (054-469-6000)',
+        pin: '구미 국방전파암실 시험센터',
+        locationAttr: 'Gumi National Industrial Complex, South Korea',
+        photoAlt: 'State of the art electromagnetic anechoic chamber with blue radiation absorbent pyramid cones covering walls, aerospace antenna testing apparatus under soft blue glow.',
+        photoCaption: '구미 전자파 무반향 시험챔버 및 안테나 계측동',
+        subway: '<strong class="text-on-surface block">KTX 김천구미역 / 구미역</strong> 김천구미역에서 리무진버스 또는 택시 이용 25분 (국가산업4단지 방면)',
+        bus: '<strong class="text-on-surface block">‘국방전자시험센터 입구’ 하차</strong> 일반: 180, 190번 버스 하차 후 북문 게이트 도보 200m',
+        car: '<strong class="text-on-surface block">남구미IC 진출 후 산단대로 진입</strong> 정밀 계측 구역 진입 시 전자기기 전원 완전 차단(EM Safe Mode) 준수 필요'
+      }
+    };
+
+    function switchFacility(key) {
+      const data = facilities[key];
+      if (!data) return;
+
+      // Update Tabs styling
+      document.querySelectorAll('.facility-tab-btn').forEach(btn => {
+        btn.classList.remove('bg-primary-container', 'text-on-primary-container');
+        btn.classList.add('text-on-surface-variant', 'hover:bg-surface-container-high');
+        btn.setAttribute('aria-selected', 'false');
+      });
+
+      const activeBtn = document.getElementById('tab-btn-' + key);
+      if (activeBtn) {
+        activeBtn.classList.remove('text-on-surface-variant', 'hover:bg-surface-container-high');
+        activeBtn.classList.add('bg-primary-container', 'text-on-primary-container');
+        activeBtn.setAttribute('aria-selected', 'true');
+      }
+
+      // Update DOM
+      document.getElementById('hud-facility-code').innerText = data.code;
+      document.getElementById('hud-facility-coord').innerText = data.coord;
+      document.getElementById('map-pin-label').innerText = data.pin;
+
+      document.getElementById('fac-sub-badge').innerText = data.subBadge;
+      document.getElementById('fac-security-level').innerText = data.secLevel;
+      document.getElementById('fac-title').innerText = data.title;
+      document.getElementById('fac-desc').innerText = data.desc;
+      document.getElementById('fac-address-short').innerText = data.addressShort;
+      document.getElementById('fac-full-address').innerText = data.fullAddress;
+      document.getElementById('fac-size').innerText = data.size;
+      document.getElementById('fac-staff').innerText = data.staff;
+      document.getElementById('fac-access-ctrl').innerText = data.access;
+      
+      const callBtn = document.getElementById('fac-call-btn');
+      callBtn.href = 'tel:' + data.phone;
+      callBtn.querySelector('span:last-child').innerText = data.callText;
+
+      document.getElementById('fac-photo-caption').innerText = data.photoCaption;
+      
+      const photoEl = document.getElementById('fac-photo');
+      photoEl.setAttribute('data-alt', data.photoAlt);
+
+      const mapEl = document.getElementById('dynamic-map-view');
+      mapEl.setAttribute('data-location', data.locationAttr);
+
+      // Transit updates
+      document.getElementById('transport-subway').innerHTML = data.subway;
+      document.getElementById('transport-bus').innerHTML = data.bus;
+      document.getElementById('transport-car').innerHTML = data.car;
+
+      // Update modal select dropdown
+      document.getElementById('modal-fac-select').value = data.title;
+      
+      // Hide copy notification
+      document.getElementById('copy-notify').classList.add('hidden');
+    }
+
+    function copyAddressToClipboard() {
+      const addressText = document.getElementById('fac-full-address').innerText;
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(addressText).then(() => {
+          showCopySuccess();
+        });
+      } else {
+        const dummy = document.createElement("textarea");
+        document.body.appendChild(dummy);
+        dummy.value = addressText;
+        dummy.select();
+        document.execCommand("copy");
+        document.body.removeChild(dummy);
+        showCopySuccess();
+      }
+    }
+
+    function showCopySuccess() {
+      const notify = document.getElementById('copy-notify');
+      notify.classList.remove('hidden');
+      setTimeout(() => {
+        notify.classList.add('hidden');
+      }, 3000);
+    }
+
+    function openSecurityBookingModal() {
+      document.getElementById('booking-modal').classList.remove('hidden');
+    }
+
+    function closeSecurityBookingModal() {
+      document.getElementById('booking-modal').classList.add('hidden');
+    }
+
+    function handleBookingSubmit(event) {
+      event.preventDefault();
+      alert('국방보안 사전방문 신청이 성공적으로 접수되었습니다.\n보안과 신원 검토 후 24시간 이내에 기재하신 휴대전화로 승인 QR 코드가 발송됩니다.');
+      closeSecurityBookingModal();
+    }
+
+    function openSecurityManual() {
+      alert('방위산업기술보호법 및 에어로디펜스 사업장 보안출입수칙(PDF v4.2)을 내려받습니다.');
+    }
+
+    function toggleMapFullscreen() {
+      const mapCard = document.getElementById('dynamic-map-view').parentElement;
+      if (!document.fullscreenElement) {
+        mapCard.requestFullscreen().catch(() => {});
+      } else {
+        document.exitFullscreen();
+      }
+    }
+
+    function adjustMapZoom(delta) {
+      const mapEl = document.getElementById('dynamic-map-view');
+      let currentScale = parseFloat(mapEl.getAttribute('data-scale') || '1.0');
+      currentScale = Math.min(Math.max(currentScale + delta * 0.15, 0.8), 1.8);
+      mapEl.setAttribute('data-scale', currentScale);
+      mapEl.style.transform = `scale(${currentScale})`;
+    }
+
+    function resetMapView() {
+      const mapEl = document.getElementById('dynamic-map-view');
+      mapEl.setAttribute('data-scale', '1.0');
+      mapEl.style.transform = 'scale(1.0)';
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/40 mt-auto"><div class="w-full px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-lg pb-space-lg border-b border-outline-variant/30"><div class="lg:col-span-5 space-y-space-md"><div class="flex items-center gap-space-sm"><div class="p-1 rounded bg-surface-container-high border border-outline-variant/40"><img alt="에어로디펜스 심볼" class="w-6 h-6 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVTcCx9Dcae_7ktnR__8qUbjNLZFVopCILXBM-zliEcM8qwRhr3pDw0doIOUgjHclKOreiO4355WIpvUZeCBCHmGh9FsVVsULouGNf-QL1qtiy3Nr51VFsasCjW6kzzHNPRgqpR5zXS9Ok4Im4XG4-B-ORWXNvnv2x9zd2Eu9NY0wE8gJIslbLSDBRYRn_V_bCRW9hhbY2EhL77xIDJQLdqD3QP4oRAwzRqONa_w0A9tCL7-UqRZQf"/></div><span class="font-headline-sm text-headline-sm font-extrabold text-on-surface tracking-wider">AERO DEFENSE</span><span class="px-2 py-0.5 rounded bg-surface-container-high border border-primary/30 font-label-telemetry text-label-telemetry text-primary font-bold">방위사업청 지정 방산업체</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed max-w-lg">에어로디펜스(한국방위기술 주식회사)는 대한민국 국방력 강화 및 자주국방 실현을 목표로 차세대 유도무기, 항공전자 레이다, 무인 복합 전투체계를 연구개발·생산하는 국가 핵심 지정 방위산업체입니다.</p><div class="flex flex-wrap items-center gap-space-sm pt-space-xs"><div class="flex items-center gap-1.5 px-space-sm py-1 rounded bg-error-container/30 border border-error/40 text-on-error-container font-label-code text-label-code font-bold"><span class="material-symbols-outlined text-sm text-error">verified_user</span><span>24H 국가보안신고센터: 080-890-0119</span></div><div class="flex items-center gap-1.5 px-space-sm py-1 rounded bg-surface-container-high border border-outline-variant/50 text-secondary font-label-telemetry text-label-telemetry"><span class="material-symbols-outlined text-sm">security</span><span>ISO 27001 국방정보보안체계 인증</span></div></div></div><div class="lg:col-span-4 space-y-space-sm"><h4 class="font-title-spec text-title-spec font-bold text-on-surface flex items-center gap-1.5"><span class="material-symbols-outlined text-secondary text-base">corporate_fare</span>주요 R&amp;D 거점 및 사업소 안내</h4><div class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><div class="p-space-xs rounded bg-surface-container-low/60 border border-outline-variant/20"><p class="text-on-surface font-semibold">판교 R&amp;D 첨단기술센터 (소프트웨어/항전)</p><p>경기도 성남시 분당구 판교역로 235 에어로타워 12~16F</p></div><div class="p-space-xs rounded bg-surface-container-low/60 border border-outline-variant/20"><p class="text-on-surface font-semibold">대전 종합연구본부 및 시험발사장</p><p>대전광역시 유성구 대덕대로 989 연구개발특구 제3단지</p></div><div class="p-space-xs rounded bg-surface-container-low/60 border border-outline-variant/20"><p class="text-on-surface font-semibold">창원 정밀 중공업 스마트팩토리</p><p>경상남도 창원시 성산구 정밀로 104 제1·2방산 제조공정</p></div></div></div><div class="lg:col-span-3 space-y-space-md flex flex-col justify-between"><div><h4 class="font-title-spec text-title-spec font-bold text-on-surface mb-space-xs flex items-center gap-1.5"><span class="material-symbols-outlined text-primary text-base">hub</span>국방 기관 및 패밀리 네트워크</h4><div class="relative"><select aria-label="국방 패밀리 사이트 선택" class="w-full bg-surface-container-high border border-outline-variant/50 text-on-surface rounded p-space-sm font-body-sm text-body-sm focus:border-secondary focus:outline-none"><option value="">관련 국방기관 바로가기</option><option value="dapa">방위사업청 (DAPA)</option><option value="add">국방과학연구소 (ADD)</option><option value="dtaq">국방기술품질원 (DTAQ)</option><option value="mnd">대한민국 국방부 (MND)</option><option value="aero-aero">에어로 에어로스페이스</option><option value="aero-land">에어로 랜드시스템즈</option></select></div></div><div class="space-y-1 font-label-code text-label-code text-on-surface-variant"><div class="flex justify-between"><span class="text-outline">대표전화</span><span class="text-on-surface">02-550-7000</span></div><div class="flex justify-between"><span class="text-outline">보안팩스</span><span class="text-on-surface">02-550-7999</span></div><div class="flex justify-between"><span class="text-outline">방산협력</span><span class="text-on-surface">defense_biz@aerodefense.co.kr</span></div></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-body-sm text-body-sm"><div class="flex flex-wrap items-center gap-space-md font-semibold"><a class="text-on-surface hover:text-secondary underline underline-offset-4 transition-colors" data-path="privacy" href="#">개인정보처리방침</a><span class="text-outline">|</span><a class="hover:text-on-surface transition-colors" data-path="security-rules" href="#">방위산업 보안업무규정</a><span class="text-outline">|</span><a class="hover:text-on-surface transition-colors" data-path="ethics" href="#">윤리경영 준법서약</a><span class="text-outline">|</span><a class="hover:text-on-surface transition-colors" href="#" onclick="document.getElementById('megamenu-overlay').classList.remove('hidden')">전체 사이트맵</a><span class="text-outline">|</span><a class="hover:text-on-surface transition-colors" data-path="contact" href="#">오시는길 및 면회신청</a></div><div class="font-label-telemetry text-label-telemetry text-outline text-right"><p>사업자등록번호: 104-81-29402 | 방산업체지정번호: 방사청-2018-09호</p><p class="mt-0.5">© 2025 AERO DEFENSE Corp. All rights reserved. 대한민국 국가방위기술 지적재산권 등록완료.</p></div></div></div></footer></body></html>
